@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../globals.css";
 import Navbar from "@/components/Navbar/Navbar";
+import { Syne } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const syne = Syne({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
@@ -19,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} container antialiased`}>
+      <body className={`${syne.className} container antialiased`}>
         <Navbar />
 
         <div className="lg:border-[1px] lg:border-black  lg:border-t-[0] mt-16 lg:mt-20 ">
