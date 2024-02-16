@@ -1,7 +1,4 @@
 "use client";
-import { cn } from "@/lib/utils";
-import React from "react";
-
 type Props = {
   barstate?: boolean;
   //   barfunction?: (barstate: boolean) => void;
