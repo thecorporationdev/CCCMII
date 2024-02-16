@@ -1,5 +1,5 @@
 import Image from "next/image";
-import image from "@/public/10002.jpg";
+import image from "@/public/100042.jpg";
 
 type Props = {};
 
