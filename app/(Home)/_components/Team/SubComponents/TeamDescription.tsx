@@ -4,8 +4,33 @@ type Props = {};
 
 const TeamDescription = (props: Props) => {
   return (
-    <div className="py-8  lg:pr-8 w-full h-[75vh] lg:h-[145.9vh]">
-      <div className="h-full bg-red-600">team description</div>
+    <div className="py-8 lg:pr-8 w-full h-full flex items-center justify-center">
+      <div className=" bg-red-500 p-5 h-auto  pb-20 ">
+        <div className="w-full">
+          <div className="flex">
+            <div className="w-full md:w-[70%] lg:w-[50%] font-semibold text-xl lg:text-4xl uppercase">
+              30+ panelists and 300 invited attendees
+            </div>
+          </div>
+          <div className="flex justify-end mt-20">
+            <div className="w-full md:w-[70%] lg:w-[50%] font-semibold">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              quidem repudiandae
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-black h-[1px] w-full my-20" />
+        <div className="">
+          <div className="w-full  font-semibold">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            quidem repudiandae
+          </div>
+          <div className="w-full  font-semibold mt-10 uppercase text-base">
+            Lorem ipsum dolor
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
