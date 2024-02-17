@@ -7,7 +7,7 @@ const SponsorMain = (props: Props) => {
   return (
     <div className="flex flex-col">
       <SponsosGrid />
-      {/* <SponsorDark /> */}
+      <SponsorDark />
     </div>
   );
 };

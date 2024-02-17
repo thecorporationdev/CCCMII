@@ -10,8 +10,8 @@ const FooterContent = (props: Props) => {
       <Image
         src={BarCode}
         alt="barcode"
-        height={150}
-        width={250}
+        height={400}
+        width={400}
         priority
         className="object-cover"
       />

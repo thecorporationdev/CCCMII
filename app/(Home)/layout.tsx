@@ -4,6 +4,7 @@ import "../globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import { Syne } from "next/font/google";
 import FooterMain from "@/components/Footer/FooterMain";
+import SponsorMain from "./_components/Sponsors/SponsorMain";
 
 const syne = Syne({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function RootLayout({
         <main className="lg:border-[1px]  container lg:border-black  lg:border-t-[0] mt-16 lg:mt-20 border-b-[0]">
           {children}
         </main>
+        <SponsorMain />
         <FooterMain />
       </body>
     </html>

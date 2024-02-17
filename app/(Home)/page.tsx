@@ -14,7 +14,6 @@ export default function Home() {
       <About />
       <Team />
       <MainBrandServices />
-      <SponsorMain />
     </div>
   );
 }
