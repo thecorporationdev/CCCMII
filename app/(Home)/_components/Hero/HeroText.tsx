@@ -1,12 +1,12 @@
 import React from "react";
 
-type Props = {};
-
-const HeroText = (props: Props) => {
+const HeroText = () => {
   return (
-    <div className=" text-3xl md:text-5xl xl:text-8xl font-medium lg:px-16 mb-16 lg:mb-24 max-lg:px-8">
-      BRIDGING RESEARCH ,<br /> ARCHITECTURE AND <br /> DESIGN FOR HEALTH AND
-      WELLBEING
+    <div className="text-2xl sm:text-5xl font-medium lg:px-8 mb-16 lg:mb-24 max-lg:px-6 tracking-tighter">
+      WELCOME TO THE OFFICIAL,WEBSITE OF THREE C&apos;s MET
+      <br className="max-lg:hidden" /> INTERNATIONAL INSTITUTE OF MEDIATION,
+      <br className="max-lg:hidden" /> NEGOTIATION, COUNSELING AND
+      CONCILIATION(CCCMII)
     </div>
   );
 };
