@@ -12,7 +12,7 @@ const MainBrandServices = (props: Props) => {
         <Experience />
       </div>
       <div className="flex py-20 items-center justify-center uppercase font-medium text-xl lg:text-2xl border-t-[1px] ` border-black">
-        <p>interested in learning more?</p>
+        <p>I BET YOU WILL BE INTERESTED IN THESE COURSES</p>
       </div>
     </>
   );

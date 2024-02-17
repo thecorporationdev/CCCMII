@@ -9,17 +9,6 @@ const HeroGrid = (props: Props) => {
   return (
     <div className="border-b-[1px] border-black pb-10 ContainerPadding">
       <div className="flex gap-x-6 lg:px-6 flex-col gap-y-6  ">
-        {/* <div className="flex flex-col gap-y-6 w-full xl:w-[65%] ContainerPadding">
-          <div className="h-[350px] lg:h-[400px] bg-gray-200"></div>
-          <div className="h-[350px] lg:h-[400px] bg-gray-200"></div>
-          <div className="h-[350px] lg:h-[400px] bg-gray-200"></div>
-        </div>
-        <div className="hidden lg:flex gap-y-6 w-full flex-col flex-1 ContainerPadding">
-          <div className="h-[350px] lg:h-[400px] bg-gray-200"></div>
-          <div className="h-[350px] lg:h-[400px] bg-gray-200"></div>
-          <div className="h-[350px] lg:h-[400px] bg-gray-200"></div>
-        </div> */}
-
         <div className="flex flex-col-reverse xl:flex-row w-full gap-x-4 gap-y-2 ">
           <div className="h-[350px] lg:h-[400px] bg-gray-200 w-full xl:w-[65%] relative">
             <Image
@@ -46,7 +35,7 @@ const HeroGrid = (props: Props) => {
 
               <div className="flex mt-4 gap-x-2 items-center uppercase absolute bottom-4 font-semibold text-base">
                 <PiArrowRightThin />
-                <h2 className="text-xl">read more</h2>
+                <h2 className="">read more</h2>
               </div>
             </div>
           </div>
@@ -78,7 +67,7 @@ const HeroGrid = (props: Props) => {
 
               <div className="flex mt-4 gap-x-2 items-center uppercase absolute bottom-4 font-semibold text-base">
                 <PiArrowRightThin />
-                <h2 className="text-xl">read more</h2>
+                <h2 className="">read more</h2>
               </div>
             </div>
           </div>
@@ -110,7 +99,7 @@ const HeroGrid = (props: Props) => {
 
               <div className="flex mt-4 gap-x-2 items-center uppercase absolute bottom-4 font-semibold text-base">
                 <PiArrowRightThin />
-                <h2 className="text-xl">read more</h2>
+                <h2 className="">read more</h2>
               </div>
             </div>
           </div>
