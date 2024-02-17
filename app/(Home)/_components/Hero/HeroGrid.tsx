@@ -29,8 +29,24 @@ const HeroGrid = (props: Props) => {
               priority
             />
           </div>
-          <div className="h-[350px] xl:h-[300px] bg-gray-200 w-full xl:flex-1">
-            text here
+          <div className="h-[350px] xl:h-[300px] bg-purple relative w-full xl:flex-1 text-white">
+            <div className="w-full pt-8 px-4 lg:px-10 pb-4">
+              <div className="flex">
+                <div className="w-full  font-semibold text-xl  uppercase">
+                  30+ panelists and 300 invited attendees
+                </div>
+              </div>
+              <div className="flex justify-end mt-4">
+                <div className="w-full font-semibold">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus quidem repudiandae
+                </div>
+              </div>
+
+              <p className="uppercase absolute bottom-4 font-semibold text-base">
+                read more
+              </p>
+            </div>
           </div>
         </div>
 
@@ -44,9 +60,24 @@ const HeroGrid = (props: Props) => {
               priority
             />
           </div>
-          <div className="h-[350px] xl:h-[300px] bg-gray-200 w-full xl:flex-1">
-            {" "}
-            text here
+          <div className="h-[350px] xl:h-[300px] bg-purple relative w-full xl:flex-1 text-white">
+            <div className="w-full pt-8 px-4 lg:px-10 pb-4">
+              <div className="flex">
+                <div className="w-full  font-semibold text-xl  uppercase">
+                  30+ panelists and 300 invited attendees
+                </div>
+              </div>
+              <div className="flex justify-end mt-4">
+                <div className="w-full font-semibold">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus quidem repudiandae
+                </div>
+              </div>
+
+              <p className="uppercase absolute bottom-4 font-semibold text-base">
+                read more
+              </p>
+            </div>
           </div>
         </div>
 
@@ -60,8 +91,24 @@ const HeroGrid = (props: Props) => {
               priority
             />
           </div>
-          <div className="h-[350px] xl:h-[300px] bg-gray-200 w-full xl:flex-1">
-            text here
+          <div className="h-[350px] xl:h-[300px] bg-purple relative w-full xl:flex-1 text-white">
+            <div className="w-full pt-8 px-4 lg:px-10 pb-4">
+              <div className="flex">
+                <div className="w-full  font-semibold text-xl  uppercase">
+                  30+ panelists and 300 invited attendees
+                </div>
+              </div>
+              <div className="flex justify-end mt-4">
+                <div className="w-full font-semibold">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus quidem repudiandae
+                </div>
+              </div>
+
+              <p className="uppercase absolute bottom-4 font-semibold text-base">
+                read more
+              </p>
+            </div>
           </div>
         </div>
       </div>
