@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "../globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import { Syne } from "next/font/google";
+import FooterMain from "@/components/Footer/FooterMain";
 
 const syne = Syne({ subsets: ["latin"] });
 
@@ -20,12 +21,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${syne.className} container antialiased`}>
+      <body className={`${syne.className} antialiased`}>
         <Navbar />
-
-        <div className="lg:border-[1px] lg:border-black  lg:border-t-[0] mt-16 lg:mt-20 ">
+        <main className="lg:border-[1px]  container lg:border-black  lg:border-t-[0] mt-16 lg:mt-20 border-b-[0]">
           {children}
-        </div>
+        </main>
+        <FooterMain />
       </body>
     </html>
   );

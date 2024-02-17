@@ -8,13 +8,13 @@ import Team from "./_components/Team/Team";
 
 export default function Home() {
   return (
-    <main className="">
+    <div className="">
       <HeroText />
       <HeroGrid />
       <About />
       <Team />
       <MainBrandServices />
       <SponsorMain />
-    </main>
+    </div>
   );
 }

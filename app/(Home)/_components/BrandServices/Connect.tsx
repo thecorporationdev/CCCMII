@@ -6,8 +6,8 @@ type Props = {};
 
 const Connect = (props: Props) => {
   return (
-    <div className="w-full flex flex-col lg:px-8 pt-6">
-      <div className="bg-yellow-500 p-3 pb-6">
+    <div className="w-full flex flex-col lg:px-8 pt-6 text-white">
+      <div className="bg-purple p-3 pb-6 ">
         <h3 className="text-2xl md:text-3xl xl:text-5xl uppercase tracking-tight">
           co-creating a new design framework
         </h3>

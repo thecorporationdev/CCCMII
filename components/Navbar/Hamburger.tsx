@@ -4,10 +4,11 @@ type Props = {
   //   barfunction?: (barstate: boolean) => void;
   className?: string;
   bgclass?: string;
+  barColor?: string;
 };
 
 const Hamburger = (props: Props) => {
-  const { barstate, className } = props;
+  const { barstate, className, barColor } = props;
   return (
     <div
       className="flex flex-col items-end justify-center space-y-1 cursor-pointer gap-y-1 "
@@ -15,9 +16,9 @@ const Hamburger = (props: Props) => {
       //     barfunction(!barstate);
       //   }}
     >
-      <span className="w-[34px] h-[1px] bg-black "></span>
-      <span className="w-[34px] h-[1px] bg-black"></span>
-      <span className="w-[34px] h-[1px] bg-black"></span>
+      <span className={`w-[34px] h-[1px] bg-black ${barColor} `}></span>
+      <span className={`w-[34px] h-[1px] bg-black ${barColor} `}></span>
+      <span className={`w-[34px] h-[1px] bg-black ${barColor} `}></span>
     </div>
     // <div
     //   className={cn(
