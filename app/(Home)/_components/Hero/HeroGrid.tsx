@@ -30,7 +30,7 @@ const HeroGrid = (props: Props) => {
             />
           </div>
           <div className="h-[350px] xl:h-[300px] bg-purple relative w-full xl:flex-1 text-white">
-            <div className="w-full pt-8 px-4 lg:px-10 pb-4">
+            <div className="w-full pt-8 px-5 lg:px-10 pb-4">
               <div className="flex">
                 <div className="w-full  font-semibold text-xl  uppercase">
                   30+ panelists and 300 invited attendees
@@ -61,7 +61,7 @@ const HeroGrid = (props: Props) => {
             />
           </div>
           <div className="h-[350px] xl:h-[300px] bg-purple relative w-full xl:flex-1 text-white">
-            <div className="w-full pt-8 px-4 lg:px-10 pb-4">
+            <div className="w-full pt-8 px-5 lg:px-10 pb-4">
               <div className="flex">
                 <div className="w-full  font-semibold text-xl  uppercase">
                   30+ panelists and 300 invited attendees
@@ -92,7 +92,7 @@ const HeroGrid = (props: Props) => {
             />
           </div>
           <div className="h-[350px] xl:h-[300px] bg-purple relative w-full xl:flex-1 text-white">
-            <div className="w-full pt-8 px-4 lg:px-10 pb-4">
+            <div className="w-full pt-8 px-5 lg:px-10 pb-4">
               <div className="flex">
                 <div className="w-full  font-semibold text-xl  uppercase">
                   30+ panelists and 300 invited attendees
