@@ -38,7 +38,7 @@ const FooterMain = (props: Props) => {
         </div>
       </div>
 
-      <div className="h-[50vh] w-full"></div>
+      <div className="h-[30vh] w-full"></div>
     </footer>
   );
 };

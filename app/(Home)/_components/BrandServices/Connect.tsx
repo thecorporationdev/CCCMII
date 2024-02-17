@@ -12,7 +12,7 @@ const Connect = (props: Props) => {
           co-creating a new design framework
         </h3>
 
-        <div className="w-full flex justify-end mt-20">
+        <div className="w-full flex  mt-20">
           <div className="w-full md:w-[70%] xl:w-[50%]  text-base lg:text-xl font-medium">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import image from "@/public/10001.jpg";
+import { PiArrowRightThin } from "react-icons/pi";
 
 type Props = {};
 
@@ -30,7 +31,7 @@ const HeroGrid = (props: Props) => {
             />
           </div>
           <div className="h-[350px] xl:h-[300px] bg-purple relative w-full xl:flex-1 text-white">
-            <div className="w-full pt-8 px-5 lg:px-10 pb-4">
+            <div className="w-full pt-8 px-5  pb-4">
               <div className="flex">
                 <div className="w-full  font-semibold text-xl  uppercase">
                   30+ panelists and 300 invited attendees
@@ -43,9 +44,10 @@ const HeroGrid = (props: Props) => {
                 </div>
               </div>
 
-              <p className="uppercase absolute bottom-4 font-semibold text-base">
-                read more
-              </p>
+              <div className="flex mt-4 gap-x-2 items-center uppercase absolute bottom-4 font-semibold text-base">
+                <PiArrowRightThin />
+                <h2 className="text-xl">read more</h2>
+              </div>
             </div>
           </div>
         </div>
@@ -61,7 +63,7 @@ const HeroGrid = (props: Props) => {
             />
           </div>
           <div className="h-[350px] xl:h-[300px] bg-purple relative w-full xl:flex-1 text-white">
-            <div className="w-full pt-8 px-5 lg:px-10 pb-4">
+            <div className="w-full pt-8 px-5  pb-4">
               <div className="flex">
                 <div className="w-full  font-semibold text-xl  uppercase">
                   30+ panelists and 300 invited attendees
@@ -74,9 +76,10 @@ const HeroGrid = (props: Props) => {
                 </div>
               </div>
 
-              <p className="uppercase absolute bottom-4 font-semibold text-base">
-                read more
-              </p>
+              <div className="flex mt-4 gap-x-2 items-center uppercase absolute bottom-4 font-semibold text-base">
+                <PiArrowRightThin />
+                <h2 className="text-xl">read more</h2>
+              </div>
             </div>
           </div>
         </div>
@@ -92,7 +95,7 @@ const HeroGrid = (props: Props) => {
             />
           </div>
           <div className="h-[350px] xl:h-[300px] bg-purple relative w-full xl:flex-1 text-white">
-            <div className="w-full pt-8 px-5 lg:px-10 pb-4">
+            <div className="w-full pt-8 px-5  pb-4">
               <div className="flex">
                 <div className="w-full  font-semibold text-xl  uppercase">
                   30+ panelists and 300 invited attendees
@@ -105,9 +108,10 @@ const HeroGrid = (props: Props) => {
                 </div>
               </div>
 
-              <p className="uppercase absolute bottom-4 font-semibold text-base">
-                read more
-              </p>
+              <div className="flex mt-4 gap-x-2 items-center uppercase absolute bottom-4 font-semibold text-base">
+                <PiArrowRightThin />
+                <h2 className="text-xl">read more</h2>
+              </div>
             </div>
           </div>
         </div>

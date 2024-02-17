@@ -12,7 +12,7 @@ const TeamDescription = (props: Props) => {
               30+ panelists and 300 invited attendees
             </div>
           </div>
-          <div className="flex justify-end mt-20">
+          <div className="flex  mt-20">
             <div className="w-full md:w-[70%] lg:w-[50%] font-semibold">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
               quidem repudiandae
