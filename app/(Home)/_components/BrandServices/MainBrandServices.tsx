@@ -11,7 +11,7 @@ const MainBrandServices = (props: Props) => {
         <Connect />
         <Experience />
       </div>
-      <div className="flex py-20 items-center justify-center uppercase font-medium text-xl lg:text-2xl border-t-[1px] ` border-black">
+      <div className="flex py-20 items-center justify-center uppercase font-medium text-xl lg:text-2xl border-t-[1px] text-center border-black">
         <p>I BET YOU WILL BE INTERESTED IN THESE COURSES</p>
       </div>
     </>
