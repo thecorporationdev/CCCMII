@@ -13,9 +13,12 @@ const SponsorDark = (props: Props) => {
           </p>
         </div>
 
-        <div className="w-full lg:w-[80%] max-lg:grid gap-x-4 max-lg:grid-cols-2 lg:flex item-center flex-wrap justify-center lg:gap-x-10 gap-y-10">
+        <div className="w-full lg:w-[80%] max-lg:grid max-lg:gap-x-4 max-lg:grid-cols-2 lg:flex lg:item-center lg:flex-wrap justify-center lg:gap-x-10 gap-y-10">
           {[1, 2, 3, 4, 5, 6].map((i) => (
-            <div key={i} className="relative h-[200px] w-[200px]">
+            <div
+              key={i}
+              className="relative max-lg:w-[150px] max-lg:h-[150px] lg:h-[200px] lg:w-[200px]"
+            >
               <Image src={image} alt="sponsor" fill className="" />
             </div>
           ))}
