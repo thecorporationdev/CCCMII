@@ -30,7 +30,7 @@ const HeroGrid = (props: Props) => {
               priority
             />
           </div>
-          <div className="h-[350px] xl:h-[300px] bg-purple relative w-full xl:flex-1 text-white">
+          <div className="h-[350px] xl:h-[300px] bg-[#f89f2b] relative w-full xl:flex-1 text-white">
             <div className="w-full pt-8 px-5  pb-4">
               <div className="flex">
                 <div className="w-full  font-semibold text-xl  uppercase">
@@ -62,7 +62,7 @@ const HeroGrid = (props: Props) => {
               priority
             />
           </div>
-          <div className="h-[350px] xl:h-[300px] bg-purple relative w-full xl:flex-1 text-white">
+          <div className="h-[350px] xl:h-[300px] bg-[#E53F71] relative w-full xl:flex-1 text-white">
             <div className="w-full pt-8 px-5  pb-4">
               <div className="flex">
                 <div className="w-full  font-semibold text-xl  uppercase">
@@ -94,7 +94,7 @@ const HeroGrid = (props: Props) => {
               priority
             />
           </div>
-          <div className="h-[350px] xl:h-[300px] bg-purple relative w-full xl:flex-1 text-white">
+          <div className="h-[350px] xl:h-[300px] bg-[#9C3588] relative w-full xl:flex-1 text-white">
             <div className="w-full pt-8 px-5  pb-4">
               <div className="flex">
                 <div className="w-full  font-semibold text-xl  uppercase">
