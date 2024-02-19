@@ -1,5 +1,6 @@
 import Image from "next/image";
 import image from "@/public/WhiteLogo.svg";
+import { Sponsors } from "./SponsosGrid";
 
 type Props = {};
 
@@ -13,13 +14,13 @@ const SponsorDark = (props: Props) => {
           </p>
         </div>
 
-        <div className="w-full lg:w-[80%] max-lg:grid max-lg:gap-x-4 max-lg:grid-cols-2 lg:flex lg:item-center lg:flex-wrap justify-center lg:gap-x-10 gap-y-10">
-          {[1, 2, 3, 4, 5, 6].map((i) => (
+        <div className="w-full lg:w-[85%] max-lg:grid max-lg:gap-x-4 max-lg:grid-cols-2 lg:flex lg:item-center lg:flex-wrap justify-center lg:gap-x-16 gap-y-10">
+          {Sponsors.map((p, i) => (
             <div
               key={i}
               className="relative max-lg:w-[150px] max-lg:h-[150px] lg:h-[200px] lg:w-[200px]"
             >
-              <Image src={image} alt="sponsor" fill className="" />
+              <Image src={p.image} alt="sponsor" fill className="" />
             </div>
           ))}
         </div>
