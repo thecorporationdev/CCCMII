@@ -43,19 +43,19 @@ const SponsorDark = (props: Props) => {
           <div className="relative max-lg:w-[150px] max-lg:h-[110px] lg:h-[90px] lg:w-[170px] p-10 ">
             <Image src={Logo3} alt="sponsor" fill className="" />
           </div>
-          <div className="relative max-lg:w-[120px] max-lg:h-[120px] lg:h-[80px] lg:w-[200px] p-10 ">
+          <div className="relative max-lg:w-[150px] max-lg:h-[90px] lg:h-[80px] lg:w-[200px] p-10">
             <Image src={Logo4} alt="sponsor" fill className="" />
           </div>
           <div className="relative max-lg:w-[150px] max-lg:h-[150px] lg:h-[90px] lg:w-[200px] p-10 ">
             <Image src={Logo5} alt="sponsor" fill className="" />
           </div>
-          <div className="relative max-lg:w-[110px] max-lg:h-[110px] lg:h-[90px] lg:w-[200px] p-10 ">
+          <div className="relative max-lg:w-[150px] max-lg:h-[90px] lg:h-[90px] lg:w-[200px] p-10 ">
             <Image src={Logo6} alt="sponsor" fill className="" />
           </div>
-          <div className="relative max-lg:w-[170px] max-lg:h-[200px] lg:h-[90px] lg:w-[200px] p-10 ">
+          <div className="relative max-lg:w-[170px] max-lg:h-[130px] lg:h-[90px] lg:w-[200px] p-10 ">
             <Image src={Logo7} alt="sponsor" fill className="" />
           </div>
-          <div className="relative max-lg:w-[130px] max-lg:h-[110px] lg:h-[90px] lg:w-[200px] p-10 ">
+          <div className="relative max-lg:w-[150px] max-lg:h-[90px] lg:h-[90px] lg:w-[200px] p-10 ">
             <Image src={Logo8} alt="sponsor" fill className="" />
           </div>
         </div>
