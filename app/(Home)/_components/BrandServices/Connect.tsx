@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { PiArrowRightThin } from "react-icons/pi";
-import image from "@/public/10005.jpg";
+import image from "@/public/10004.jpg";
 
 type Props = {};
 

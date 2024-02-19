@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { PiArrowRightThin } from "react-icons/pi";
-import image from "@/public/10003.jpg";
+import image from "@/public/10004.jpg";
 
 type Props = {};
 
