@@ -15,18 +15,18 @@ const FooterNav = (props: Props) => {
       <div className="w-full items-center justify-end hidden lg:flex py-6">
         <div className="flex mr-4 gap-x-3 items-center">
           Menu
-          <div className="hidden lg:block">
+          {/* <div className="hidden lg:block">
             <Hamburger
               barColor="bg-white hidden lg:block"
               barfunction={() => {}}
             />
-          </div>
+          </div> */}
         </div>
       </div>
 
-      <div className="block lg:hidden py-6">
+      {/* <div className="block lg:hidden py-6">
         <Hamburger barColor="bg-white" barfunction={() => {}} />
-      </div>
+      </div> */}
     </div>
   );
 };
