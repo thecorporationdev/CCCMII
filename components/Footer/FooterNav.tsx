@@ -10,10 +10,11 @@ const FooterNav = (props: Props) => {
         About
       </div>
       <div className="border-r-[1px] border-l-[1px] border-white w-full lg:flex items-center justify-center py-6 hidden ">
-        panelist
+        courses
       </div>
-      <div className="w-full items-center justify-end hidden lg:flex py-6">
+      <div className="w-full items-center justify-center hidden lg:flex py-6">
         <div className="flex mr-4 gap-x-3 items-center">
+          contact us
           {/* <div className="hidden lg:block">
             <Hamburger
               barColor="bg-white hidden lg:block"

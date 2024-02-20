@@ -26,7 +26,7 @@ const SponsorDark = (props: Props) => {
   return (
     <>
       <div className="bg-purple p-8 flex items-center justify-center flex-col">
-        <div className="flex items-center justify-center w-full py-10">
+        <div className="flex items-center justify-center w-full py-10 lg:-ml-20">
           <p className="font-semibold text-base uppercase text-white">
             thanks to our sponsors
           </p>
