@@ -71,10 +71,10 @@ const Mobilenav: FC<MobileNavProps> = (props: MobileNavProps) => {
             </motion.div>
 
             <motion.p
-              initial={{ opacity: 0, rotate: 180 }}
-              animate={{ opacity: 1, rotate: 0 }}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
               transition={{ delay: 1.7, duration: 0.5 }}
-              exit={{ opacity: 0, transition: { delay: 0.4 }, rotate: 85 }}
+              exit={{ opacity: 0, transition: { delay: 0.4 } }}
               className="cursor-pointer"
               onClick={() => {
                 hideModalHandler(!barstate);
