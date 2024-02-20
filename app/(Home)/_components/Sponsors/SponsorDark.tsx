@@ -1,5 +1,4 @@
 import Image from "next/image";
-import image from "@/public/WhiteLogo.svg";
 
 import Logo1 from "@/public/SVGLOGOS/AfricanOmbudsmanAndMediatorsAssociation.svg";
 import Logo2 from "@/public/SVGLOGOS/AsianLawStudentsAssociation.svg";
@@ -37,7 +36,7 @@ const SponsorDark = (props: Props) => {
           <div className="relative max-lg:w-[150px] max-lg:h-[110px] lg:h-[110px] lg:w-[120px] p-10 ">
             <Image src={Logo1} alt="sponsor" fill className="" />
           </div>
-          <div className="relative max-lg:w-[150px] max-lg:h-[110px] lg:h-[90px] lg:w-[200px] p-10 ">
+          <div className="relative max-lg:w-[150px] max-lg:h-[110px] lg:h-[100px] lg:w-[200px] p-10 ">
             <Image src={Logo2} alt="sponsor" fill className="" />
           </div>
           <div className="relative max-lg:w-[150px] max-lg:h-[110px] lg:h-[90px] lg:w-[170px] p-10 ">

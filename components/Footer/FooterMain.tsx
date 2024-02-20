@@ -8,7 +8,7 @@ type Props = {};
 
 const FooterMain = (props: Props) => {
   return (
-    <footer className=" py-4 w-full  ContainerPadding bg-purple pt-10 text-white px-4 ">
+    <footer className=" py-4 w-full  ContainerPadding bg-purple pt-10 text-white px-4 " >
       <div className="container">
         <div className="flex gap-x-4 items-center">
           <div className="uppercase md:font-semibold lg:w-[10%] underline underline-offset-4 text-xl md:text-2xl">

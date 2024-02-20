@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "../globals.css";
+import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import { Syne } from "next/font/google";
 import FooterMain from "@/components/Footer/FooterMain";
-import SponsorMain from "./_components/Sponsors/SponsorMain";
+import SponsorMain from "./(Home)/_components/Sponsors/SponsorMain";
 
 const syne = Syne({ subsets: ["latin"] });
 
