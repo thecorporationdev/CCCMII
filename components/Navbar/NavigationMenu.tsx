@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { FC } from "react";
 import Link from "next/link";
 import { motion, stagger } from "framer-motion";
@@ -48,7 +48,7 @@ const Mobilenav: FC<MobileNavProps> = (props: MobileNavProps) => {
       >
         <div className="h-full w-full flex flex-col items-center   ">
           <div
-            className={`flex justify-between bg-transparent items-center fixed z-[100]  w-full  px-4 h-fit py-3 transition-all duration-1000 `}
+            className={`flex justify-between bg-transparent items-center fixed font-semibold z-[100]  w-full  px-4 h-fit py-3 transition-all duration-1000 `}
           >
             <motion.div
               className="cursor-pointer"
@@ -83,7 +83,7 @@ const Mobilenav: FC<MobileNavProps> = (props: MobileNavProps) => {
               <XMarkIcon className="h-20 w-20 lg:h-24 lg:w-24 stroke-[0.4px]" />
             </motion.p>
           </div>
-          <ul className=" w-full flex flex-col items-center gap-y-8 lg:px-5 underline underline-offset-4 decoration-[1px]  py-4 uppercase font-[500]  text-2xl lg:text-[40px] leading-[30px] mt-36 lg:mt-40 ">
+          <ul className=" w-full flex flex-col max-lg:mt-56 items-center gap-y-8 lg:px-5 underline underline-offset-4 decoration-[1px]  py-4 uppercase font-bold  text-2xl lg:text-[40px] leading-[30px] mt-36 lg:mt-40 ">
             <Link href="/" className="w-full">
               <motion.li
                 initial={{ opacity: 0 }}
