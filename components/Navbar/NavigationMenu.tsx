@@ -48,9 +48,9 @@ const Mobilenav: FC<MobileNavProps> = (props: MobileNavProps) => {
       >
         <div className="h-full w-full flex flex-col items-center   ">
           <div
-            className={`flex justify-between bg-transparent items-center fixed font-semibold z-[100]  w-full  px-4 h-fit py-3 transition-all duration-1000 `}
+            className={`flex justify-end bg-transparent items-center fixed font-semibold z-[100]  w-full  px-4 h-fit py-3 transition-all duration-1000 `}
           >
-            <motion.div
+            {/* <motion.div
               className="cursor-pointer"
               initial={{ opacity: 0, rotate: 2 }}
               animate={{ opacity: 1, rotate: 0 }}
@@ -68,7 +68,7 @@ const Mobilenav: FC<MobileNavProps> = (props: MobileNavProps) => {
                 width={150}
                 priority
               />
-            </motion.div>
+            </motion.div> */}
 
             <motion.p
               initial={{ opacity: 0 }}
