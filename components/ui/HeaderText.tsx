@@ -11,7 +11,7 @@ const HeaderText = (props: Props) => {
   return (
     <div
       className={cn(
-        `text-3xl sm:text-5xl xl:text-7xl font-medium lg:px-8  max-lg:px-6 tracking-tight uppercase ${className}`
+        `text-4xl sm:text-5xl xl:text-7xl font-bold lg:px-8  max-lg:px-5 text-black underline-offset-2 tracking-tight uppercase ${className}`
       )}
     >
       {title}

@@ -83,7 +83,7 @@ const Mobilenav: FC<MobileNavProps> = (props: MobileNavProps) => {
               <XMarkIcon className="h-20 w-20 lg:h-24 lg:w-24 stroke-[0.4px]" />
             </motion.p>
           </div>
-          <ul className=" w-full flex flex-col max-lg:mt-56 items-center gap-y-8 lg:px-5 underline underline-offset-4 decoration-[1px]  py-4 uppercase font-bold  text-2xl lg:text-[40px] leading-[30px] mt-36 lg:mt-40 ">
+          <ul className=" w-full flex flex-col max-lg:mt-56 items-center gap-y-8 lg:px-5  py-4 uppercase font-bold  text-2xl lg:text-[40px] leading-[30px] mt-36 lg:mt-40 ">
             <Link href="/" className="w-full">
               <motion.li
                 initial={{ opacity: 0 }}

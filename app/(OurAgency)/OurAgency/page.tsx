@@ -8,7 +8,7 @@ type Props = {};
 const page = (props: Props) => {
   return (
     <div>
-      <HeaderText title="our agency" className="mb-16 " />
+      <HeaderText title="our agency" className="mb-12 lg:mb-16  " />
 
       <div className="w-full flex justify-end max-lg:px-4 ">
         <p className="w-full lg:w-1/2 font-semibold text-base lg:text-xl ">
@@ -50,7 +50,6 @@ const page = (props: Props) => {
 
       {/* our team */}
       <div className="mt-10 border-t-[1px] border-black py-4 ">
-        <HeaderText title="Our experts" className="text-xl xl:text-4xl" />
         <TeamDetails />
       </div>
 
