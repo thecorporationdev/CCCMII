@@ -49,7 +49,7 @@ const page = (props: Props) => {
       </div>
 
       {/* our team */}
-      <div className="mt-10 border-t-[1px] border-black py-4 ">
+      <div className="mt-10 border-t-[1px] border-black py-4 lg:pl-8">
         <TeamDetails />
       </div>
 
