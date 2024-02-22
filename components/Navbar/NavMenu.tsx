@@ -25,7 +25,7 @@ const NavMenu = (props: Props) => {
       <div
         className="border-r-[1px] border-l-[1px] border-black w-full lg:flex items-center cursor-pointer justify-center py-6 hidden "
         onClick={() => {
-          router.push("/Courses");
+          router.push("/OurCourses");
         }}
       >
         courses

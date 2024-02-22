@@ -11,7 +11,7 @@ const Courseitem = (props: Props) => {
           commercial mediation
         </div>
 
-        <p className="px-4">
+        <p className="lg:px-4 text-xl font-semibold mt-2">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis
           eveniet ex veniam consectetur
         </p>
