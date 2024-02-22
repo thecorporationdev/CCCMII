@@ -6,7 +6,7 @@ import Readmore from "../Hero/Readmore";
 const Experience = () => {
   return (
     <div className="w-full flex flex-col lg:px-8 text-white pt-6">
-      <div className="bg-black p-6 flex  flex-col gap-y-4 h-[350px]">
+      <div className="bg-black p-6 flex  flex-col gap-y-4 lg:h-[350px]">
         <h3 className="text-xl lg:text-3xl uppercase font-semibold">
           {AriticleDataTwo[1].CourseTitle}
         </h3>

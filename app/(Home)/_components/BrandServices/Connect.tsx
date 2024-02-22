@@ -9,7 +9,7 @@ type Props = {};
 const Connect = (props: Props) => {
   return (
     <div className="w-full flex flex-col lg:px-8 pt-6 text-white">
-      <div className="bg-purple p-6 flex  flex-col gap-y-4 h-[350px]">
+      <div className="bg-purple p-6 flex  flex-col gap-y-4 lg:h-[350px]">
         <h3 className="text-xl lg:text-3xl uppercase font-semibold">
           {AriticleDataTwo[0]?.CourseTitle}
         </h3>
