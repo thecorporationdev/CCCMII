@@ -2,6 +2,8 @@ import Image from "next/image";
 import React from "react";
 import image from "@/public/CCCMIIIMAGES/dl.beatsnoop.com-3000-0j4ELKg5P7 copy.jpg";
 import Courseitem from "./_Components/Courseitem";
+import TeamDetails from "../(Home)/_components/Team/TeamDetails";
+import { courseDes } from "@/Data/Course";
 
 type Props = {};
 
@@ -27,7 +29,7 @@ const page = (props: Props) => {
         <div className="h-[1px] bg-black w-full my-10"></div>
 
         <div className="w-full flex justify-end my-10">
-          <div className="w-full lg:w-1/2 text-base lg:text-xl ">
+          <div className="w-full lg:w-1/2 text-xl ">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
               excepturi, quisquam temporibus placeat illo quibusdam eaque
@@ -45,11 +47,20 @@ const page = (props: Props) => {
         </div>
 
         <div className="flex flex-col">
-          {[1, 2, 3, 4, 5, 6].map((courses, i) => (
-            <Courseitem key={i} />
+          {courseDes.map((course, i) => (
+            <Courseitem
+              key={course.id}
+              coursetitle={course.coursename}
+              slug={course.slug}
+              tagline={course.taglines}
+            />
           ))}
         </div>
+
+        <TeamDetails />
       </div>
+
+      <div className="h-[1px] bg-black w-full mT-2 mb-6"></div>
     </section>
   );
 };

@@ -16,7 +16,7 @@ const Readmore = (props: Props) => {
     <div
       className="flex mt-10 gap-x-2 items-center uppercase mb-10 bottom-4 font-semibold text-[14px] cursor-pointer hover:underline hover:underline-offset-1"
       onClick={() => {
-        router.push(`/Courses/${slug}`);
+        router.push(`/Blog/${slug}`);
       }}
     >
       <ArrowRight size={20} />

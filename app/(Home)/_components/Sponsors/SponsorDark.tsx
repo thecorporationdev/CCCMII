@@ -26,13 +26,13 @@ const SponsorDark = (props: Props) => {
   return (
     <>
       <div className="bg-purple p-8 flex items-center justify-center flex-col pb-16 ">
-        <div className="flex items-center justify-center w-full lg:py-16">
+        <div className="flex items-center justify-center w-full py-10">
           <p className="font-semibold text-base uppercase text-white text-center">
             MEET OUR STELLAR ALLIANCE: OUR INCREDIBLE PARTNERS!
           </p>
         </div>
 
-        <div className="w-full lg:w-[65%] grid gap-x-2 gap-y-4  grid-cols-2 xl:grid-cols-4 lg:p-10 lg:item-center justify-center  items-center max-lg:mt-6 max-lg:mb-10">
+        <div className="w-full lg:w-[65%] grid gap-x-2 gap-y-4  grid-cols-2 xl:grid-cols-4 lg:p-10 lg:item-center justify-center  items-center max-lg:mt-10 max-lg:mb-10">
           {Sponsors.map((sponsor) => (
             <div key={sponsor.id}>
               <div className="p-6 lg:p-10 border-[1px] border-white flex items-center justify-center h-[200px]">
