@@ -20,7 +20,7 @@ const Banner = (props: Props) => {
                 href="https://www.trustmediation.org.uk/mediations-set-to-increase-as-civil-court-backlogs-hit-an-all-time-high/
 "
                 target="_blank"
-                className=""
+                className=" ml-0 mr-1 "
               >
                 • Mediations set to increase as Civil Court backlogs hit an
                 all-time high
@@ -29,7 +29,7 @@ const Banner = (props: Props) => {
                 href="https://www.trustmediation.org.uk/the-economic-benefits-of-mediation-for-a-law-firm/
 "
                 target="_blank"
-                className="mr-4"
+                className=""
               >
                 • The economic benefits of mediation for a law firm
               </a>
@@ -37,7 +37,7 @@ const Banner = (props: Props) => {
               <a
                 href="https://www.trustmediation.org.uk/mediation-in-clinical-negligence-claims-is-now-business-as-usual/"
                 target="_blank"
-                className="mr-4"
+                className="ml-1 mr-0"
               >
                 • Mediation in clinical negligence claims is now “business as
                 usual”

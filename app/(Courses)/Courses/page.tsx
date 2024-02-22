@@ -7,9 +7,6 @@ type Props = {};
 const page = (props: Props) => {
   return (
     <div>
-      <div className="">
-        <HeaderText title="courses" />
-      </div>
       <div className="mt-10">
         <HeroGrid />
       </div>

@@ -2,10 +2,11 @@ import TeamMemberImage from "./TeamMemberImage";
 import firstimage from "@/public/Experts/ChijiokeNnannaIbeku.jpg";
 import secondimage from "@/public/Experts/JoyBorum.jpg";
 import thirdimage from "@/public/Experts/LisaSingh.jpg";
-import fourthimage from "@/public/Experts/MargaretChijioke Ibeku.jpg";
+import fourthimage from "@/public/Experts/MargaretChijiokeIbeku.jpg";
 import fifthimage from "@/public/Experts/OritAsnin.jpg";
 import sixthimage from "@/public/Experts/PatrickMcphilamy.jpg";
 import seventhimage from "@/public/Experts/kim.jpg";
+import Eighthimage from "@/public/Experts/SuzannaNorbeck.jpg";
 
 const ExpertsImage = [
   {
@@ -23,6 +24,10 @@ const ExpertsImage = [
   {
     id: 3,
     image: thirdimage,
+  },
+  {
+    id: 3,
+    image: Eighthimage,
   },
 
   {

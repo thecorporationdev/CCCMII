@@ -17,7 +17,7 @@ const NavMenu = (props: Props) => {
       <div
         className="w-full lg:flex items-center justify-center py-6 hidden cursor-pointer"
         onClick={() => {
-          router.push("/");
+          router.push("/OurAgency");
         }}
       >
         About

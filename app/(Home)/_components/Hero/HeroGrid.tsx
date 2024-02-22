@@ -1,5 +1,7 @@
 import { CoursesData } from "@/Data/Courses";
-import { CourseItem } from "./CourseItem";
+import { BlogItem } from "./BlogItem";
+import { ArrowRight } from "lucide-react";
+import ViewAll from "./ViewAll";
 
 type Props = {};
 
@@ -8,7 +10,7 @@ const HeroGrid = (props: Props) => {
     <div className="border-b-[1px] border-black pb-10 ContainerPadding">
       <div className="flex gap-x-6 lg:px-6 flex-col gap-y-6  ">
         {CoursesData.map((courses) => (
-          <CourseItem
+          <BlogItem
             key={courses.slug}
             color={courses.color}
             image={courses.image}
@@ -18,6 +20,8 @@ const HeroGrid = (props: Props) => {
           />
         ))}
       </div>
+
+      <ViewAll />
     </div>
   );
 };

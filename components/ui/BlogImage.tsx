@@ -3,7 +3,7 @@ import React from "react";
 
 type Props = {
   imagesrc: {
-    imageurl: string;
+    imageurl: string | StaticImageData;
   };
 };
 
@@ -12,7 +12,7 @@ type Props = {
 const BlogImage = (props: Props) => {
   const { imagesrc } = props;
   return (
-    <div className="relative w-full h-[350px] lg:h-[600px] mb-14 ">
+    <div className="relative w-full h-[350px] lg:h-[600px] mb-14 bg-slate-100 ">
       <Image
         alt="CCCMII IMAGE"
         src={imagesrc.imageurl}

@@ -25,7 +25,7 @@ const FooterMain = (props: Props) => {
         </div>
         <FooterContent />
 
-        <div className=" flex flex-col lg:flex-row justify-between py-5 lg:items-center font-semibold text-sm uppercase gap-y-3">
+        <div className=" flex flex-col lg:flex-row justify-between py-5 lg:items-center font-semibold text-[14px] uppercase gap-y-3">
           <div className="w-full lg:w-1/2 flex flex-col lg:flex-row lg:justify-between gap-y-3">
             <span>
               &copy; Copyright CCCMII {new Date().getFullYear()} | Design
