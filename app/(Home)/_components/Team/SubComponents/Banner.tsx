@@ -15,14 +15,32 @@ const Banner = (props: Props) => {
 
         <div className="flex-1  ">
           <div className="flex  max-lg:py-6 font-medium text-xl gap-x-4 w-full py-8">
-            <Marquee>
-              <a href="">
-                I can be a React component, multiple React components, or just
-                some text.
+            <Marquee className="space-x-4">
+              <a
+                href="https://www.trustmediation.org.uk/mediations-set-to-increase-as-civil-court-backlogs-hit-an-all-time-high/
+"
+                target="_blank"
+                className="mr-4"
+              >
+                • Mediations set to increase as Civil Court backlogs hit an
+                all-time high
               </a>
-              <a href="">
-                🛠️ yo can be a React component, multiple React components, or
-                just some text.
+              <a
+                href="https://www.trustmediation.org.uk/the-economic-benefits-of-mediation-for-a-law-firm/
+"
+                target="_blank"
+                className="mr-4"
+              >
+                • The economic benefits of mediation for a law firm
+              </a>
+
+              <a
+                href="https://www.trustmediation.org.uk/mediation-in-clinical-negligence-claims-is-now-business-as-usual/"
+                target="_blank"
+                className="mr-4"
+              >
+                • Mediation in clinical negligence claims is now “business as
+                usual”
               </a>
             </Marquee>
           </div>

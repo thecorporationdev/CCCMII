@@ -56,37 +56,37 @@ export function constructMetadata({
   };
 }
 
-export const getArticleBySlug = async (slug: string) => {
-  const realSlug = slug.replace(/\.mdx$/, "");
-  const filePath = path.join(rootDirectory, `${realSlug}.mdx`);
+// export const getArticleBySlug = async (slug: string) => {
+//   const realSlug = slug.replace(/\.mdx$/, "");
+//   const filePath = path.join(rootDirectory, `${realSlug}.mdx`);
 
-  const fileContent = fs.readFileSync(filePath, { encoding: "utf8" });
+//   const fileContent = fs.readFileSync(filePath, { encoding: "utf8" });
 
-  const { content, frontmatter } = await compileMDX<{
-    Coursetitle: string;
-    Blurb: string;
-    image: {
-      imageurl: string;
-    };
-  }>({
-    source: fileContent,
-    options: { parseFrontmatter: true },
-    components: {
-      BlogImage,
-    },
-  });
+//   const { content, frontmatter } = await compileMDX<{
+//     Coursetitle: string;
+//     Blurb: string;
+//     image: {
+//       imageurl: string;
+//     };
+//   }>({
+//     source: fileContent,
+//     options: { parseFrontmatter: true },
+//     components: {
+//       BlogImage,
+//     },
+//   });
 
-  return { meta: { ...frontmatter, slug: realSlug }, content };
-};
+//   return { meta: { ...frontmatter, slug: realSlug }, content };
+// };
 
-export const getArticlesMeta = async () => {
-  const files = fs.readdirSync(rootDirectory);
+// export const getArticlesMeta = async () => {
+//   const files = fs.readdirSync(rootDirectory);
 
-  let posts = [];
+//   let posts = [];
 
-  for (const file of files) {
-    const { meta } = await getArticleBySlug(file);
-    posts.push(meta);
-  }
-  return posts;
-};
+//   for (const file of files) {
+//     const { meta } = await getArticleBySlug(file);
+//     posts.push(meta);
+//   }
+//   return posts;
+// };

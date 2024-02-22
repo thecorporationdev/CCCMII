@@ -6,7 +6,7 @@ type Props = {};
 
 const TeamDetails = (props: Props) => {
   return (
-    <div className="flex lg:divide-x-[1px] divide-black flex-col lg:flex-row max-lg:ContainerPadding pt-6">
+    <div className="flex lg:divide-x-[1px] divide-black flex-col lg:flex-row max-lg:ContainerPadding py-6">
       <TeamDescription />
       <TeamList />
     </div>
