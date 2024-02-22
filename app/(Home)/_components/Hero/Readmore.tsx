@@ -12,7 +12,7 @@ const Readmore = (props: Props) => {
   const router = useRouter();
   return (
     <div
-      className="flex mt-4 gap-x-2 items-center uppercase absolute bottom-4 font-semibold text-sm cursor-pointer"
+      className="flex mt-4 gap-x-2 items-center uppercase absolute bottom-4 font-semibold text-[10px] cursor-pointer"
       onClick={() => {
         router.push(`/Courses/${slug}`);
       }}
