@@ -36,6 +36,8 @@ const config = {
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
       colors: {
+        pink: "#E53F71",
+        orange: "#f89f2b",
         black: "#1E1B1D",
         purple: "#8900AB",
         border: "hsl(var(--border))",
@@ -95,7 +97,11 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate"), addVariablesForColors],
+  plugins: [
+    require("tailwindcss-animate"),
+    addVariablesForColors,
+    require("@tailwindcss/typography"),
+  ],
 } satisfies Config;
 
 export default config;

@@ -8,7 +8,7 @@ type Props = {};
 
 const FooterMain = (props: Props) => {
   return (
-    <footer className=" py-4 w-full  ContainerPadding bg-purple pt-10 text-white px-4 " >
+    <footer className=" py-4 w-full  ContainerPadding bg-purple pt-10 text-white px-4 ">
       <div className="container">
         <div className="flex gap-x-4 items-center">
           <div className="uppercase md:font-semibold lg:w-[10%] underline underline-offset-4 text-xl md:text-2xl">
@@ -25,7 +25,7 @@ const FooterMain = (props: Props) => {
         </div>
         <FooterContent />
 
-        <div className=" flex flex-col lg:flex-row justify-between py-5 lg:items-center font-semibold text-base uppercase gap-y-3">
+        <div className=" flex flex-col lg:flex-row justify-between py-5 lg:items-center font-semibold text-sm uppercase gap-y-3">
           <div className="w-full lg:w-1/2 flex flex-col lg:flex-row lg:justify-between gap-y-3">
             <span>
               &copy; Copyright CCCMII {new Date().getFullYear()} | Design

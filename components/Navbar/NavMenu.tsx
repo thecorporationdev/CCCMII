@@ -14,13 +14,18 @@ const NavMenu = (props: Props) => {
 
   return (
     <div className="border-[1px] border-black flex  justify-end max-lg:px-4 lg:justify-between w-full flex-1 items-center font-semibold text-base uppercase">
-      <div className="w-full lg:flex items-center justify-center py-6 hidden cursor-pointer">
+      <div
+        className="w-full lg:flex items-center justify-center py-6 hidden cursor-pointer"
+        onClick={() => {
+          router.push("/");
+        }}
+      >
         About
       </div>
       <div
         className="border-r-[1px] border-l-[1px] border-black w-full lg:flex items-center cursor-pointer justify-center py-6 hidden "
         onClick={() => {
-          router.push("#footer");
+          router.push("/Courses");
         }}
       >
         courses

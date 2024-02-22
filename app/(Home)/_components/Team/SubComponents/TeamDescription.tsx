@@ -5,11 +5,12 @@ type Props = {};
 const TeamDescription = (props: Props) => {
   return (
     <div className="py-8 lg:pr-8 w-full h-full flex items-center justify-center">
-      <div className=" bg-purple p-5 h-auto  pb-20 text-white ">
+      <div className=" bg-[#f89f2b]  p-5 h-auto  pb-20 text-white ">
         <div className="w-full">
           <div className="flex">
             <div className="w-full font-semibold text-xl lg:text-3xl uppercase">
-              WE HAVE EXCEPTIONAL ARRAY OF THINKERS BACKING UP OUR INSTITUTE.
+              OUR INSTITUTE BOASTS A POWERHOUSE OF BRILLIANT MINDS DRIVING
+              INNOVATION AND THOUGHT LEADERSHIP.
             </div>
           </div>
           <div className="flex mt-20 flex-col gap-y-4">
