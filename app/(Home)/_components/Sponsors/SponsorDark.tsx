@@ -32,7 +32,7 @@ const SponsorDark = (props: Props) => {
           </p>
         </div>
 
-        <div className="w-full lg:w-[65%] grid  grid-cols-2 xl:grid-cols-4 lg:item-center justify-center  items-center max-lg:mt-10">
+        <div className="w-full lg:w-[65%] grid  grid-cols-2 xl:grid-cols-4 p-10 lg:item-center justify-center  items-center max-lg:mt-10">
           {Sponsors.map((sponsor) => (
             <div
               key={sponsor.id}
