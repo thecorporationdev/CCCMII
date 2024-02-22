@@ -6,10 +6,11 @@ import { ArrowRight } from "lucide-react";
 
 type Props = {
   slug: string;
+  title?: string;
 };
 
 const Readmore = (props: Props) => {
-  const { slug } = props;
+  const { slug, title } = props;
   const router = useRouter();
   return (
     <div
@@ -19,7 +20,7 @@ const Readmore = (props: Props) => {
       }}
     >
       <ArrowRight size={20} />
-      <h2 className="">read more</h2>
+      <h2 className="">{`${title ? title : "readmore"}`}</h2>
     </div>
   );
 };

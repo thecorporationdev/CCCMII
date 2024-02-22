@@ -3,7 +3,7 @@ import path from "path";
 import { compileMDX } from "next-mdx-remote/rsc";
 import BlogImage from "@/components/ui/BlogImage";
 
-const rootDirectory = path.join(process.cwd(), "Data", "Courses");
+const rootDirectory = path.join(process.cwd(), "Data", "Articles");
 
 export const getBySlug = async (slug: string) => {
   const realSlug = slug.replace(/\.mdx$/, "");

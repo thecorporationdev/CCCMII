@@ -1,36 +1,29 @@
 import Image from "next/image";
 import { PiArrowRightThin } from "react-icons/pi";
 import image from "@/public/10004.jpg";
+import { AriticleData, AriticleDataTwo } from "@/Data/Articlesdata";
+import Readmore from "../Hero/Readmore";
 
 type Props = {};
 
 const Connect = (props: Props) => {
   return (
     <div className="w-full flex flex-col lg:px-8 pt-6 text-white">
-      <div className="bg-purple p-6 flex  flex-col gap-y-4">
+      <div className="bg-purple p-6 flex  flex-col gap-y-4 h-[350px]">
         <h3 className="text-xl lg:text-3xl uppercase font-semibold">
-          co-creating a new design frame
+          {AriticleDataTwo[0]?.CourseTitle}
         </h3>
 
-        <div className="w-full flex">
+        <div className="w-full flex flex-col">
           <div className="w-full  font-medium">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Atque cumque a
-              eius. Cupiditate a nobis pariatur blanditiis ut corrupti placeat
-              dignissimos atque. Minus, assumenda molestias? Hic dolores quasi
-              rem ipsam.
-            </p>
-            <div className="flex mt-8 gap-x-2 items-center uppercase font-semibold text-base ">
-              <PiArrowRightThin />
-              <h2 className="">explore sessions</h2>
-            </div>
+            <p>{AriticleDataTwo[0]?.CourseBlurb}</p>
           </div>
+          <Readmore title="explore more" slug={AriticleDataTwo[0]?.slug} />
         </div>
       </div>
       <div className="relative h-[350px]">
         <Image
-          src={image}
+          src={AriticleDataTwo[0]?.image}
           alt="brandservices image"
           fill
           className="object-cover object-center "

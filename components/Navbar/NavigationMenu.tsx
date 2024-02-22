@@ -99,7 +99,7 @@ const Mobilenav: FC<MobileNavProps> = (props: MobileNavProps) => {
               </motion.li>
               {/* <div className="w-full lg:w-[19rem]  bg-white h-[1px] mt-1"></div> */}
             </Link>
-            <Link href="/OurAgency" className="w-full">
+            <Link href="/OurProfile" className="w-full">
               <motion.li
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -110,11 +110,11 @@ const Mobilenav: FC<MobileNavProps> = (props: MobileNavProps) => {
                   hideModalHandler(!barstate);
                 }}
               >
-                our Agency
+                our profile
               </motion.li>
               {/* <div className="w-full lg:w-[19rem]  bg-white h-[1px] mt-1"></div> */}
             </Link>
-            <Link href="/" className="w-full">
+            <Link href="/OurEvents" className="w-full">
               <motion.li
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -125,11 +125,11 @@ const Mobilenav: FC<MobileNavProps> = (props: MobileNavProps) => {
                   hideModalHandler(!barstate);
                 }}
               >
-                our Courses
+                our events
               </motion.li>
               {/* <div className="w-full lg:w-[19rem]  bg-white h-[1px] mt-1"></div> */}
             </Link>
-            <Link href="/" className="w-full">
+            <Link href="/OurCourses" className="w-full">
               <motion.li
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -140,11 +140,11 @@ const Mobilenav: FC<MobileNavProps> = (props: MobileNavProps) => {
                   hideModalHandler(!barstate);
                 }}
               >
-                our certifications
+                our courses
               </motion.li>
               {/* <div className="w-full lg:w-[19rem]  bg-white h-[1px] mt-1"></div> */}
             </Link>
-            <Link href="/" className="w-full">
+            <Link href="/OurResources" className="w-full">
               <motion.li
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -155,11 +155,11 @@ const Mobilenav: FC<MobileNavProps> = (props: MobileNavProps) => {
                   hideModalHandler(!barstate);
                 }}
               >
-                our blog
+                our resources
               </motion.li>
               {/* <div className="w-full lg:w-[19rem]  bg-white h-[1px] mt-1"></div> */}
             </Link>
-            <Link href="/" className="w-full">
+            <Link href="/OurContact" className="w-full">
               <motion.li
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -174,7 +174,7 @@ const Mobilenav: FC<MobileNavProps> = (props: MobileNavProps) => {
               </motion.li>
               {/* <div className="w-full lg:w-[19rem]  bg-white h-[1px] mt-1"></div> */}
             </Link>
-            <Link href="/" className="w-full">
+            <Link href="/OurPolicies" className="w-full">
               <motion.li
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}

@@ -1,23 +1,23 @@
 import Image from "next/image";
 
-import Logo1 from "@/public/SVGLOGOS/AfricanOmbudsmanAndMediatorsAssociation.svg";
-import Logo2 from "@/public/SVGLOGOS/AsianLawStudentsAssociation.svg";
-import Logo3 from "@/public/SVGLOGOS/BlackWomenForPositiveChange.svg";
-import Logo4 from "@/public/SVGLOGOS/EssentialMediationSolutions.svg";
-import Logo5 from "@/public/SVGLOGOS/GMNInstitute.svg";
-import Logo6 from "@/public/SVGLOGOS/INTERNATIONALMEDIATIONINSTITUTE.svg";
-import Logo7 from "@/public/SVGLOGOS/MediationBeyondBordersInternational.svg";
-import Logo8 from "@/public/SVGLOGOS/RectitudeAlternativeDisputeResolution.svg";
+import Logo1 from "@/public/SVGLOGONLY/EssentialMediationSolutions.svg";
+import Logo2 from "@/public/SVGLOGONLY/MediatorsBeyondBorders.svg";
+import Logo3 from "@/public/SVGLOGONLY/AsianLawStudentsAssociation.svg";
+import Logo4 from "@/public/SVGLOGONLY/BlackWomenForPositiveChange.svg";
+import Logo5 from "@/public/SVGLOGONLY/GMNInstitute.svg";
+import Logo6 from "@/public/SVGLOGONLY/INTERNATIONALMEDIATIONINSTITUTE.svg";
+import Logo7 from "@/public/SVGLOGONLY/AfricanOmbudsmanAndMediatorsAssociation.svg";
+import Logo8 from "@/public/SVGLOGONLY/Rectitude.svg";
 
 export const Sponsors = [
-  { id: 1, image: Logo1 },
-  { id: 2, image: Logo2 },
-  { id: 3, image: Logo3 },
-  { id: 4, image: Logo4 },
-  { id: 5, image: Logo5 },
-  { id: 6, image: Logo6 },
-  { id: 7, image: Logo7 },
-  { id: 8, image: Logo8 },
+  { id: 1, image: Logo1, name: "Essential Mediation Solutions" },
+  { id: 6, image: Logo6, name: "International Mediation Institute" },
+  { id: 5, image: Logo5, name: "GMN Institute" },
+  { id: 8, image: Logo8, name: "Rectitude" },
+  { id: 4, image: Logo4, name: "Black Women for Positive Change" },
+  { id: 2, image: Logo2, name: "Mediators Beyond    Borders" },
+  { id: 3, image: Logo3, name: "Asian Law Students'​ Association" },
+  { id: 7, image: Logo7, name: "African Ombudsman and Mediators Association" },
 ];
 
 type Props = {};
@@ -26,25 +26,28 @@ const SponsorDark = (props: Props) => {
   return (
     <>
       <div className="bg-purple p-8 flex items-center justify-center flex-col pb-16 ">
-        <div className="flex items-center justify-center w-full py-16">
-          <p className="font-semibold text-base uppercase text-white">
-            thanks to our sponsors
+        <div className="flex items-center justify-center w-full lg:py-16">
+          <p className="font-semibold text-base uppercase text-white text-center">
+            MEET OUR STELLAR ALLIANCE: OUR INCREDIBLE PARTNERS!
           </p>
         </div>
 
-        <div className="w-full lg:w-[65%] grid  grid-cols-2 xl:grid-cols-4 p-10 lg:item-center justify-center  items-center max-lg:mt-10">
+        <div className="w-full lg:w-[65%] grid gap-x-2 gap-y-4  grid-cols-2 xl:grid-cols-4 lg:p-10 lg:item-center justify-center  items-center max-lg:mt-6 max-lg:mb-10">
           {Sponsors.map((sponsor) => (
-            <div
-              key={sponsor.id}
-              className=" p-10 border-[1px] border-white flex items-center justify-center h-[200px]"
-            >
-              <Image
-                src={sponsor.image}
-                alt="sponsor"
-                height={200}
-                width={200}
-                className=""
-              />
+            <div key={sponsor.id}>
+              <div className="p-6 lg:p-10 border-[1px] border-white flex items-center justify-center h-[200px]">
+                <Image
+                  src={sponsor.image}
+                  alt="sponsor"
+                  height={200}
+                  width={200}
+                  className=""
+                />
+              </div>
+
+              <div className="text-center h-10 text-white font-semibold text-sm lg:text-base mt-1 lg:px-2">
+                {sponsor.name}
+              </div>
             </div>
           ))}
 
