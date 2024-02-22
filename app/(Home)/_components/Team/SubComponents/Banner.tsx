@@ -7,7 +7,7 @@ const Banner = (props: Props) => {
   return (
     <div className=" border-b-[1px] border-b-black ">
       <div className="flex items-center divide-x-[1px] divide-black container">
-        <div className="w-[25%] max-lg:mr-2 lg:w-[20%]">
+        <div className="w-[30%] max-lg:mr-2 lg:w-[20%]">
           <div className=" text-sm lg:text-2xl font-medium w-full uppercase  lg:px-4">
             cccmii news
           </div>
@@ -20,7 +20,7 @@ const Banner = (props: Props) => {
                 href="https://www.trustmediation.org.uk/mediations-set-to-increase-as-civil-court-backlogs-hit-an-all-time-high/
 "
                 target="_blank"
-                className="mr-4"
+                className=""
               >
                 • Mediations set to increase as Civil Court backlogs hit an
                 all-time high
