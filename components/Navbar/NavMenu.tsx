@@ -20,7 +20,7 @@ const NavMenu = (props: Props) => {
           router.push("/OurProfile");
         }}
       >
-        About
+        our profile
       </div>
       <div
         className="border-r-[1px] border-l-[1px] border-black w-full lg:flex items-center cursor-pointer justify-center py-6 hidden "
@@ -28,7 +28,7 @@ const NavMenu = (props: Props) => {
           router.push("/OurCourses");
         }}
       >
-        courses
+        our courses
       </div>
       <div className="w-full items-center justify-end hidden lg:flex py-6 ">
         <div className="flex mr-4 gap-x-3 items-center cursor-pointer">

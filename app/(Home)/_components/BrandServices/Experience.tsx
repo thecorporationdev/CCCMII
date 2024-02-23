@@ -14,7 +14,7 @@ const Experience = () => {
         <div className="w-full flex">
           <div className="w-full  font-medium">
             <p>{AriticleDataTwo[1].CourseBlurb}</p>
-            <Readmore title="explore more" slug={AriticleDataTwo[1]?.slug} />
+            <Readmore title="read more" slug={AriticleDataTwo[1]?.slug} />
           </div>
         </div>
       </div>

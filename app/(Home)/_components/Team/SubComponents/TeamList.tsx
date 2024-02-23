@@ -2,7 +2,7 @@ import TeamMemberImage from "./TeamMemberImage";
 import firstimage from "@/public/Experts/ChijiokeNnannaIbeku.jpg";
 import secondimage from "@/public/Experts/JoyBorum.jpg";
 import thirdimage from "@/public/Experts/LisaSingh.jpg";
-import fourthimage from "@/public/Experts/MargaretChijiokeibeku.jpg";
+import fourthimage from "@/public/Experts/new.jpg";
 import fifthimage from "@/public/Experts/OritAsnin.jpg";
 import sixthimage from "@/public/Experts/PatrickMcphilamy.jpg";
 import seventhimage from "@/public/Experts/kim.jpg";

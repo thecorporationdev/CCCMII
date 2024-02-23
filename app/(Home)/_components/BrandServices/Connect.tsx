@@ -18,7 +18,7 @@ const Connect = (props: Props) => {
           <div className="w-full  font-medium">
             <p>{AriticleDataTwo[0]?.CourseBlurb}</p>
           </div>
-          <Readmore title="explore more" slug={AriticleDataTwo[0]?.slug} />
+          <Readmore title="read more" slug={AriticleDataTwo[0]?.slug} />
         </div>
       </div>
       <div className="relative h-[350px]">

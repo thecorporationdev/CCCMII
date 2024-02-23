@@ -174,21 +174,6 @@ const Mobilenav: FC<MobileNavProps> = (props: MobileNavProps) => {
               </motion.li>
               {/* <div className="w-full lg:w-[19rem]  bg-white h-[1px] mt-1"></div> */}
             </Link>
-            <Link href="/OurPolicies" className="w-full">
-              <motion.li
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 1.8 }}
-                exit={{ opacity: 0, transition: { delay: 0.2 } }}
-                className="max-lg:px-5"
-                onClick={() => {
-                  hideModalHandler(!barstate);
-                }}
-              >
-                our policies
-              </motion.li>
-              {/* <div className="w-full lg:w-[19rem]  bg-white h-[1px] mt-1"></div> */}
-            </Link>
           </ul>
         </div>
       </motion.div>

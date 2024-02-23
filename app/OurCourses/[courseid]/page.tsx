@@ -5,6 +5,7 @@ import image from "@/public/CCCMIIIMAGES/ARTICLE2.jpg";
 import { pickRandomObjects } from "@/lib/utils";
 import Link from "next/link";
 import Courseitem from "../_Components/Courseitem";
+import EnrollNow from "../_Components/EnrollNow";
 
 type Props = {
   params: { courseid: string };
@@ -18,7 +19,7 @@ const page = (props: Props) => {
   const course = courseDes.find((insight) => insight.slug === params.courseid);
 
   return (
-    <section className="px-4 lg:px-8">
+    <section className="px-4 lg:px-8 flex flex-col">
       <div className="relative w-full h-[350px] lg:h-[700px] mb-14 bg-slate-100 px-8">
         <Image
           alt="CCCMII IMAGE"
@@ -60,6 +61,8 @@ const page = (props: Props) => {
               </span>
               {course?.coursecost}
             </p>
+
+            <EnrollNow />
           </div>
         </div>
 

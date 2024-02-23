@@ -24,9 +24,7 @@ const Courseitem = (props: Props) => {
           {coursetitle}
         </div>
 
-        <p className=" text-base lg:text-xl font-semibold mt-4 uppercase">
-          {tagline}
-        </p>
+        <p className=" text-base  font-semibold mt-4 uppercase">{tagline}</p>
       </div>
 
       <ArrowRight size={50} />

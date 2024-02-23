@@ -14,7 +14,7 @@ const FooterNav = (props: Props) => {
           router.push("/OurProfile");
         }}
       >
-        About
+        our profile
       </div>
       <div
         className="border-r-[1px] border-l-[1px] border-white w-full lg:flex items-center justify-center py-6 hidden cursor-pointer"
@@ -22,7 +22,7 @@ const FooterNav = (props: Props) => {
           router.push("/OurCourses");
         }}
       >
-        courses
+        our courses
       </div>
       <div className="w-full items-center justify-center hidden lg:flex py-6">
         <div
@@ -31,7 +31,7 @@ const FooterNav = (props: Props) => {
             router.push("/OurContacts");
           }}
         >
-          contact us
+          our contacts
           {/* <div className="hidden lg:block">
             <Hamburger
               barColor="bg-white hidden lg:block"
