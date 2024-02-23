@@ -59,12 +59,11 @@ const page = (props: Props) => {
               />
             ))}
           </div>
-
-          <TeamDetails />
         </div>
 
         <div className="h-[1px] bg-black w-full mT-2 mb-6"></div>
       </div>
+      <TeamDetails />
     </section>
   );
 };

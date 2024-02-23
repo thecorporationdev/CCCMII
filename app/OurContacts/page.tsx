@@ -44,23 +44,24 @@ const page = (props: Props) => {
                   touch with us:
                 </p>
 
-                <div className="flex flex-col gap-y-4">
-                  <div className="my-6  ">
+                <div className="bg-black h-[1px] w-full mt-6"></div>
+
+                <div className="flex flex-col  divide-y-[1px] divide-black gap-y-4 ">
+                  <div className="mt-2 ">
                     <span className="font-semibold mr-1 uppercase">
                       Address:
                     </span>
-                    CCCMII Headquarters 123 Peace Drive Resolution City, RC
-                    45678
+                    13 Mungo Park Close , 90021
                   </div>
-                  <div className="mb-6">
+                  <div className="mt-2 flex items-center">
                     <span className="font-semibold mr-1 uppercase">
                       Contact Numbers:
                     </span>
-                    +1 (234) 567-8900 45678
+                    0802 361 8078
                   </div>
 
-                  <div className="mb-6">
-                    <div className="font-semibold mr-1 uppercase mb-4">
+                  <div className="mt-2">
+                    <div className="font-semibold mr-1 uppercase mb-2">
                       {" "}
                       Office Hours:
                     </div>
@@ -68,9 +69,9 @@ const page = (props: Props) => {
                     Saturday: 10:00 AM - 3:00 PM Sunday: Closed
                   </div>
 
-                  <div className="flex flex-col ">
+                  <div className="flex flex-col mt-2 ">
                     <ul className="flex flex-col gap-y-2">
-                      <li className="mb-4">
+                      <li className="mb-2">
                         <span className="font-semibold mr-1 uppercase ">
                           Email Correspondence
                         </span>
@@ -96,7 +97,7 @@ const page = (props: Props) => {
                     </ul>
                   </div>
 
-                  <div className="mt-6">
+                  <div className="mt-2">
                     <div className="font-semibold mr-1 uppercase">
                       Stay connected with CCCMII and join our vibrant community
                       on social media:
