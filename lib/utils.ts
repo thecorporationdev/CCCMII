@@ -5,7 +5,7 @@ import { twMerge } from "tailwind-merge";
 
 import path from "path";
 import { compileMDX } from "next-mdx-remote/rsc";
-import BlogImage from "@/components/ui/BlogImage";
+import BlogImage from "@/components/Footer/ui/BlogImage";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));

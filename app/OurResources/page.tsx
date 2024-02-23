@@ -28,7 +28,7 @@ const page = (props: Props) => {
         <div className="h-[1px] bg-black w-full my-10"></div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-4 mb-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-4 mb-20">
         {[1, 2, 3, 4].map((resource, i) => (
           <ResourceCard key={i} />
         ))}

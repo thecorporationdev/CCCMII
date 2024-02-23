@@ -21,7 +21,7 @@ const Logo = (props: Props) => {
         height={300}
         width={200}
         priority
-        className="object-cover"
+        className="max-lg:h-[50px] "
       />
     </div>
   );

@@ -42,12 +42,6 @@ const page = (props: Props) => {
             <h3 className="text-xl font-bold mb-4 capitalize">
               {course?.courseDescription}
             </h3>
-            <p className=" mt-10 lg:mt-20">
-              <span className="font-semibold text-xl capitalize mr-1">
-                description:
-              </span>
-              {course?.courseDescription}
-            </p>
             <p>
               <span className="font-semibold text-xl capitalize mr-1">
                 course structure :
@@ -76,7 +70,7 @@ const page = (props: Props) => {
         </div> */}
       </div>
 
-      <div className="mt-0">
+      <div className="mt-20">
         <p className="mb-6 uppercase font-bold">other courses</p>
 
         <div className="flex flex-col items-end justify-center">

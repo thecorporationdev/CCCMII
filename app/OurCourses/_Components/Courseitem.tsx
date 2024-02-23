@@ -14,7 +14,7 @@ const Courseitem = (props: Props) => {
   const { coursetitle, tagline, slug } = props;
   return (
     <div
-      className="border-t-[1px] border-b-[1px] border-black w-full py-10 flex justify-between items-center cursor-pointer"
+      className="border-t-[1px] border-b-[1px] border-black w-full py-10 flex justify-between items-center cursor-pointer first:border-t-[2px] last:border-b-[2px]"
       onClick={() => {
         router.push(`/OurCourses/${slug}`);
       }}
@@ -24,7 +24,9 @@ const Courseitem = (props: Props) => {
           {coursetitle}
         </div>
 
-        <p className=" text-xl font-semibold mt-4 uppercase">{tagline}</p>
+        <p className=" text-base lg:text-xl font-semibold mt-4 uppercase">
+          {tagline}
+        </p>
       </div>
 
       <ArrowRight size={50} />

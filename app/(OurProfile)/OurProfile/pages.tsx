@@ -1,5 +1,5 @@
 import TeamDetails from "@/app/(Home)/_components/Team/TeamDetails";
-import HeaderText from "@/components/ui/HeaderText";
+import HeaderText from "@/components/Footer/ui/HeaderText";
 import React from "react";
 import { InfiniteMovingCards } from "../_components/TestimonialCards";
 

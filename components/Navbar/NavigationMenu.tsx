@@ -159,7 +159,7 @@ const Mobilenav: FC<MobileNavProps> = (props: MobileNavProps) => {
               </motion.li>
               {/* <div className="w-full lg:w-[19rem]  bg-white h-[1px] mt-1"></div> */}
             </Link>
-            <Link href="/OurContact" className="w-full">
+            <Link href="/OurContacts" className="w-full">
               <motion.li
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
