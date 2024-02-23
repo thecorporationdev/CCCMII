@@ -23,7 +23,7 @@ const page = (props: Props) => {
         <div className="">
           <div className="w-full">
             <div className=" w-full lg:w-1/2 text-3xl lg:text-7xl font-semibold uppercase">
-              Our courses
+              Our contact
             </div>
           </div>
 
