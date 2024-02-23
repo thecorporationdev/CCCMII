@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { FiArrowUpRight } from "react-icons/fi";
 import image from "@/public/OURCONTACTS.jpg";
+import { Link2Icon } from "lucide-react";
 
 type Props = {};
 
@@ -103,44 +104,48 @@ const page = (props: Props) => {
                       on social media:
                     </div>
                     <ul className="flex flex-col gap-y-2 mt-4">
-                      <li>
+                      <li className="flex items-center">
                         <span className="font-semibold mr-1">Facebook:</span>
                         <a
-                          className="hover:underline-offset-4 hover:underline transition duration-150"
+                          className="hover:underline-offset-4 hover:underline transition duration-150 text-base flex items-center"
                           href="https://web.facebook.com/cccmiiAfrica"
                           target="_blank"
                         >
-                          ThreeCsMetInstitute
+                          <span className="mr-2">@CCCMIIAFRICA </span>
+                          <Link2Icon size={15} />
                         </a>
                       </li>
-                      <li>
+                      <li className="flex items-center">
                         <span className="font-semibold mr-1">Twitter:</span>
                         <a
-                          className="hover:underline-offset-4 hover:underline transition duration-150"
+                          className="hover:underline-offset-4 hover:underline transition duration-150 text-base flex items-center"
                           href="https://twitter.com/cccmiiAfrica"
                           target="_blank"
                         >
-                          @CCCMIIAFRICA
+                          <span className="mr-2">@CCCMIIAFRICA </span>
+                          <Link2Icon size={15} />
                         </a>
                       </li>
-                      <li>
+                      <li className="flex items-center">
                         <span className="font-semibold mr-1"> LinkedIn :</span>
                         <a
-                          className="hover:underline-offset-4 hover:underline transition duration-150"
+                          className="hover:underline-offset-4 hover:underline transition duration-150  text-base flex items-center"
                           href="https://www.linkedin.com/company/cccmiiAfrica"
                           target="_blank"
                         >
-                          Three C’s Met International Institute
+                          <span className="mr-2">@CCCMIIAFRICA </span>
+                          <Link2Icon size={15} />
                         </a>
                       </li>
-                      <li>
+                      <li className="flex items-center">
                         <span className="font-semibold mr-1">Youtube :</span>
                         <a
-                          className="hover:underline-offset-4 hover:underline transition duration-150"
+                          className="hover:underline-offset-4 hover:underline flex transition duration-150 text-base items-center"
                           href="https://www.youtube.com/@cccmiiAfrica"
                           target="_blank"
                         >
-                          @CCCMIIAFRICA
+                          <span className="mr-2">@CCCMIIAFRICA </span>
+                          <Link2Icon size={15} />
                         </a>
                       </li>
                     </ul>

@@ -1,8 +1,10 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import logo from "@/public/WhiteLogo.svg";
 import FooterNav from "./FooterNav";
 import FooterContent from "./FooterContent";
+import Link from "next/link";
 
 type Props = {};
 
@@ -26,11 +28,17 @@ const FooterMain = (props: Props) => {
         <FooterContent />
 
         <div className=" flex flex-col lg:flex-row justify-between py-5 lg:items-center font-semibold text-[14px] uppercase gap-y-3">
-          <span>&copy; Copyright CCCMII {new Date().getFullYear()}</span>
+          <div>&copy; Copyright CCCMII {new Date().getFullYear()}</div>
 
-          <span>privacy policy</span>
+          <Link href={"/OurPolicies"} className=" hover:underline lg:-ml-16">
+            <span>privacy policy</span>
+          </Link>
 
-          <span className="">site by Austere</span>
+          <span className="hover:underline transition duration-300">
+            <a href="https://theaustere.xyz/" target="_blank">
+              site by Austere
+            </a>
+          </span>
         </div>
       </div>
 
