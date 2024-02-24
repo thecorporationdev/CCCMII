@@ -28,22 +28,6 @@ const page = (props: Props) => {
 
             <div className="h-[1px] bg-black w-full my-10"></div>
 
-            {/* <div className="w-full flex justify-end my-10">
-        <div className=" w-full lg:w-1/2 text-xl font-semibold">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-          laboriosam odio ratione
-          <span className="underline underline-offset-2">
-            perferendis eum quod
-          </span>
-          earum maiores impedit, officiis, totam et dolores. Sint possimus{" "}
-          <span className="underline underline-offset-2">
-            perferendis eum quod
-          </span>{" "}
-          ad vel maxime reiciendis voluptate modi!officiis, totam et dolores.
-          Sint possimus ad vel maxime reiciendis voluptate modi!
-        </div>
-      </div> */}
-
             <div className="w-full flex justify-end my-10">
               <div className="w-full lg:w-1/2 text-xl">
                 <h3 className="text-xl lg:text-2xl font-bold mb-4 uppercase">
@@ -181,7 +165,7 @@ const page = (props: Props) => {
           </div>
         </div>
       </section>
-      <div className="px-4 lg:px-8">
+      <div className="lg:px-8">
         <TeamDetails />
       </div>
     </>
