@@ -1,4 +1,4 @@
-<h1 align="center">Project  Name</h1>
+<h1 align="center">CCCMII WEBSITE</h1>
 
 <p align="center">
     <a href="#introduction"><strong>Introduction</strong></a> ·
@@ -8,7 +8,7 @@
 
 ## Introduction
 
-project description
+Official CCCMII, to show their courses and also important values.
 
 ## Installation
 
@@ -44,10 +44,5 @@ npm install
 
 ### UI
 
-- [CSS/SASS/SCSS Modules](https://nextjs.org/docs/app/building-your-application/styling/css-modules) - CSS architecture containing generic and base style, custom configuration, grid, utilities, mixins etc.
-
-### Sitemap
-
-- [`next-sitemap`](https:) - ...
-
-### Hooks
+- [shadcn ui](https://nextjs.org/docs/app/building-your-application/styling/css-modules)
+- tailwindcss
