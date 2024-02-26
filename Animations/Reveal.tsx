@@ -22,7 +22,7 @@ const Reveal = ({ children, delay }: Props) => {
     <motion.div
       ref={ref}
       variants={{
-        hidden: { opacity: 0, y: 40 },
+        hidden: { opacity: 0, y: 30 },
         visible: { opacity: 1, y: 0 },
       }}
       transition={{ duration: 0.7, delay: delay }}
