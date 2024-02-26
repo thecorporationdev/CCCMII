@@ -12,7 +12,7 @@ const ViewAll = (props: Props) => {
       <div
         className="text-base font-bold uppercase flex justify-between gap-x-2 items-center cursor-pointer hover:underline hover:underline-offset-1 "
         onClick={() => {
-          router.push(`/OurCourses`);
+          router.push(`/Blog`);
         }}
       >
         <span>view all</span>
