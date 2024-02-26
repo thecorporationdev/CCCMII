@@ -8,6 +8,7 @@ import Logo5 from "@/public/SVGLOGONLY/GMNInstitute.svg";
 import Logo6 from "@/public/SVGLOGONLY/INTERNATIONALMEDIATIONINSTITUTE.svg";
 import Logo7 from "@/public/SVGLOGONLY/AfricanOmbudsmanAndMediatorsAssociation.svg";
 import Logo8 from "@/public/SVGLOGONLY/Rectitude.svg";
+import Reveal from "@/Animations/Reveal";
 
 export const Sponsors = [
   { id: 1, image: Logo1, name: "Essential Mediation Solutions" },
@@ -26,28 +27,33 @@ const SponsorDark = (props: Props) => {
   return (
     <>
       <div className="bg-purple p-8 flex items-center justify-center flex-col pb-16 ">
-        <div className="flex items-center justify-center w-full py-10">
-          <p className="font-semibold text-base uppercase text-white text-center">
-            MEET OUR STELLAR ALLIANCE: OUR INCREDIBLE PARTNERS!
-          </p>
-        </div>
+        <Reveal>
+          <div className="flex items-center justify-center w-full py-10">
+            <p className="font-semibold text-base uppercase text-white text-center">
+              MEET OUR STELLAR ALLIANCE: OUR INCREDIBLE PARTNERS!
+            </p>
+          </div>
+        </Reveal>
 
         <div className="w-full lg:w-[65%] grid gap-x-2 gap-y-4  grid-cols-2 xl:grid-cols-4 lg:p-10 lg:item-center justify-center  items-center max-lg:mt-10 max-lg:mb-10">
-          {Sponsors.map((sponsor) => (
+          {Sponsors.map((sponsor, i) => (
             <div key={sponsor.id}>
-              <div className="p-10 border-[1px] border-white flex items-center justify-center h-[200px]">
-                <Image
-                  src={sponsor.image}
-                  alt="sponsor"
-                  height={100}
-                  width={100}
-                  className=""
-                />
-              </div>
-
-              <div className="text-center h-10 text-white font-semibold text-sm lg:text-base mt-1 lg:px-2">
-                {sponsor.name}
-              </div>
+              <Reveal delay={0.2 * i}>
+                <div className="p-10 border-[1px] border-white flex items-center justify-center h-[200px]">
+                  <Image
+                    src={sponsor.image}
+                    alt="sponsor"
+                    height={100}
+                    width={100}
+                    className=""
+                  />
+                </div>
+              </Reveal>
+              <Reveal delay={0.2 * i}>
+                <div className="text-center h-10 text-white font-semibold text-sm lg:text-base mt-1 lg:px-2">
+                  {sponsor.name}
+                </div>
+              </Reveal>
             </div>
           ))}
 
