@@ -1,6 +1,6 @@
 import Reveal from "@/Animations/Reveal";
 import { TextGenerateEffect } from "@/Animations/Text-generate";
-import { TextGenerateEffectInView } from "@/Animations/Text-generateInview";
+
 import React from "react";
 
 type Props = {};
