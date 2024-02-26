@@ -6,7 +6,7 @@ import { TextGenerateEffect } from "@/Animations/Text-generate";
 const HeroText = () => {
   return (
     <div className="text-[26px] max-lg:font-semibold sm:text-5xl font-medium lg:px-8 mb-16 lg:mb-24 max-lg:px-6 tracking-tight flex justify-end">
-      <div className="hidden lg:block lg:w-[65%] leading-snug">
+      <div className="w-full lg:w-[65%] leading-snug">
         {/* <Reveal>
           <div className="">
             <span>WELCOME TO THE OFFICIAL WEBSITE OF THREE</span>
@@ -18,11 +18,6 @@ const HeroText = () => {
         </Reveal> */}
 
         <TextGenerateEffect words="WELCOME TO THE OFFICIAL WEBSITE OF THREE MET INTERNATIONAL INSTITUTE OF MEDIATION C's,NEGOTIATION, COUNSELING AND CONCILIATION (CCCMII)" />
-      </div>
-
-      <div className="w-full block lg:hidden">
-        WELCOME TO THE OFFICIAL WEBSITE OF THREE C&apos;s MET INTERNATIONAL
-        INSTITUTE OF MEDIATION,NEGOTIATION, COUNSELING AND CONCILIATION (CCCMII)
       </div>
     </div>
   );
