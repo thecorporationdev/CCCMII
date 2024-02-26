@@ -35,7 +35,7 @@ export const BlogItem = (props: Props) => {
     tl.fromTo(
       img,
       {
-        yPercent: -20,
+        yPercent: -10,
         ease: "none",
       },
       {
@@ -48,13 +48,13 @@ export const BlogItem = (props: Props) => {
   return (
     <Reveal>
       <div className="flex flex-col-reverse xl:flex-row w-full gap-x-4 gap-y-2">
-        <div className="h-[350px] lg:h-[500px] overflow-hidden w-full xl:w-[65%] ">
-          <div className=" h-full w-auto xl:w-full relative">
+        <div className="h-[350px] lg:h-[500px] overflow-hidden w-full xl:w-[65%]">
+          <div className="h-full w-auto xl:w-full relative ">
             <Image
               src={image}
               alt="CCCMII hero image"
               fill
-              className="object-cover"
+              className="object-cover h-full origin-center scale-125"
               priority
               ref={imgRef}
             />
