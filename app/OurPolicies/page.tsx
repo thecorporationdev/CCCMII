@@ -3,6 +3,7 @@ import PrivacyPolicy from "../../Data/PrivacyPolicy.mdx";
 import Image from "next/image";
 import React from "react";
 import privacypolicy from "@/public/CCCMIIIMAGES/privacypolicy.jpg";
+import Reveal from "@/Animations/Reveal";
 type Props = {};
 
 const page = (props: Props) => {
@@ -21,9 +22,11 @@ const page = (props: Props) => {
       <div className="px-4 lg:px-8">
         <div className="">
           <div className="w-full">
-            <div className=" w-full lg:w-1/2 text-3xl lg:text-7xl font-semibold uppercase">
-              privacy policy
-            </div>
+            <Reveal>
+              <div className=" w-full lg:w-1/2 text-3xl lg:text-7xl font-semibold uppercase">
+                privacy policy
+              </div>
+            </Reveal>
           </div>
 
           <div className="h-[1px] bg-black w-full my-10"></div>

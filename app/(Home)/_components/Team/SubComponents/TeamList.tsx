@@ -51,7 +51,7 @@ const TeamList = (props: Props) => {
     <div className=" py-8 lg:pl-8 w-full">
       <div className="grid grid-cols-1 sm:grid-cols-2">
         {ExpertsImage.map((item, i) => (
-          <Reveal delay={i * 0.2} key={i}>
+          <Reveal delay={i * 0.02} key={i}>
             <div className="border-[0.02px] border-black p-4" key={i}>
               <TeamMemberImage key={item.id} image={item.image} />
             </div>
