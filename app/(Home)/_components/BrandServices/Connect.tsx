@@ -4,6 +4,7 @@ import image from "@/public/10004.jpg";
 import { AriticleData, AriticleDataTwo } from "@/Data/Articlesdata";
 import Readmore from "../Hero/Readmore";
 import Reveal from "@/Animations/Reveal";
+import ParallaxImage from "@/Animations/ParallaxImage";
 
 type Props = {};
 
@@ -27,14 +28,19 @@ const Connect = (props: Props) => {
           <Readmore title="read more" slug={AriticleDataTwo[0]?.slug} />
         </div>
       </div>
-      <div className="relative h-[350px]">
+      {/* <div className="relative h-[350px]">
         <Image
           src={AriticleDataTwo[0]?.image}
           alt="brandservices image"
           fill
           className="object-cover object-center "
         />
-      </div>
+      </div> */}
+
+      <ParallaxImage
+        image={AriticleDataTwo[0]?.image}
+        className="lg:h-[350px] "
+      />
     </div>
   );
 };

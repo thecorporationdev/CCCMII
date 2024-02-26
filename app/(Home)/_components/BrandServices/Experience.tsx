@@ -3,6 +3,7 @@ import image from "@/public/10004.jpg";
 import Image from "next/image";
 import Readmore from "../Hero/Readmore";
 import Reveal from "@/Animations/Reveal";
+import ParallaxImage from "@/Animations/ParallaxImage";
 
 const Experience = () => {
   return (
@@ -23,14 +24,19 @@ const Experience = () => {
           <Readmore title="read more" slug={AriticleDataTwo[1]?.slug} />
         </div>
       </div>
-      <div className="relative h-[350px]">
+      {/* <div className="relative h-[350px]">
         <Image
           src={AriticleDataTwo[1]?.image}
           alt="brandservices image"
           fill
           className="object-cover object-center "
         />
-      </div>
+      </div> */}
+
+      <ParallaxImage
+        image={AriticleDataTwo[1]?.image}
+        className="lg:h-[350px] "
+      />
     </div>
   );
 };

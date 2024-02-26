@@ -45,31 +45,31 @@ const page = (props: Props) => {
             </div>
             <div className="w-full flex justify-end my-10">
               <div className="w-full lg:w-1/2 text-xl">
-                <RevealOpacity delay={0.1}>
+                <Reveal>
                   <h3 className="text-xl lg:text-2xl font-bold mb-4 uppercase">
                     vision
                   </h3>
-                </RevealOpacity>
+                </Reveal>
 
-                <RevealOpacity delay={0.2}>
+                <Reveal>
                   <p>
                     To become the foremost global institution in fostering peace
                     and mutual understanding through professional training in
                     mediation, negotiation, counselling, and conciliation
                     techniques.
                   </p>
-                </RevealOpacity>
+                </Reveal>
               </div>
             </div>
             <div className="w-full flex justify-end my-10">
               <div className="w-full lg:w-1/2 text-xl ">
-                <RevealOpacity delay={0.3}>
+                <Reveal>
                   <h3 className="text-xl lg:text-2xl font-bold mb-4 uppercase">
                     mission
                   </h3>
-                </RevealOpacity>
+                </Reveal>
 
-                <RevealOpacity delay={0.4}>
+                <Reveal>
                   <p>
                     Our mission at CCCMII is to offer comprehensive,
                     high-calibre educational programs that equip participants
@@ -78,7 +78,7 @@ const page = (props: Props) => {
                     skilled professionals who facilitate dialogue, mend
                     relationships, and promote a more harmonious society.
                   </p>
-                </RevealOpacity>
+                </Reveal>
               </div>
             </div>
 
@@ -88,71 +88,71 @@ const page = (props: Props) => {
           <div className="">
             <div className="w-full flex my-10 justify-end">
               <div className="w-full lg:w-1/2 text-xl">
-                <RevealOpacity delay={0.5}>
+                <Reveal>
                   <h3 className="text-xl lg:text-2xl font-bold uppercase">
                     core values
                   </h3>
-                </RevealOpacity>
+                </Reveal>
                 <ul className="mt-6 space-y-4">
-                  <RevealOpacity delay={0.6}>
+                  <Reveal>
                     <li>
                       <span className="font-bold">Excellence:</span> We are
                       committed to providing top-tier education and training,
                       upholding high standards in all our programs and services.
                     </li>
-                  </RevealOpacity>
+                  </Reveal>
 
-                  <RevealOpacity delay={0.7}>
+                  <Reveal>
                     <li>
                       <span className="font-bold">Integrity: </span>We operate
                       with the utmost ethics and sincerity, ensuring
                       transparency and trustworthiness in our interactions and
                       teachings.
                     </li>
-                  </RevealOpacity>
+                  </Reveal>
 
-                  <RevealOpacity delay={0.8}>
+                  <Reveal>
                     <li>
                       <span className="font-bold">Empathy:</span> We advocate
                       for understanding and compassion in conflict situations,
                       fostering emotional intelligence as a cornerstone of
                       effective mediation.
                     </li>
-                  </RevealOpacity>
+                  </Reveal>
 
-                  <RevealOpacity delay={0.9}>
+                  <Reveal>
                     <li>
                       <span className="font-bold">Collaboration:</span> We
                       believe in the power of teamwork and collective
                       problem-solving, encouraging a cooperative approach to
                       dispute resolution.
                     </li>
-                  </RevealOpacity>
-                  <RevealOpacity delay={1}>
+                  </Reveal>
+                  <Reveal>
                     <li>
                       <span className="font-bold">Innovation: </span> We
                       continuously evolve our methodologies and practices to
                       stay at the forefront of mediation techniques and
                       negotiation strategies.
                     </li>
-                  </RevealOpacity>
-                  <RevealOpacity delay={1.1}>
+                  </Reveal>
+                  <Reveal>
                     <li>
                       <span className="font-bold">Impact:</span> Our focus is on
                       delivering pragmatic, results-oriented training that has a
                       tangible, positive impact on individuals, communities, and
                       organizations.
                     </li>
-                  </RevealOpacity>
+                  </Reveal>
 
-                  <RevealOpacity delay={1.2}>
+                  <Reveal>
                     <li>
                       <span className="font-bold">Diversity:</span> We embrace
                       and value the rich variety of perspectives and cultural
                       backgrounds, ensuring inclusivity and respect for all in
                       our global learning community.
                     </li>
-                  </RevealOpacity>
+                  </Reveal>
                 </ul>
               </div>
             </div>
@@ -163,13 +163,13 @@ const page = (props: Props) => {
           <div className="">
             <div className="w-full flex my-10 justify-end">
               <div className=" w-full lg:w-1/2 text-xl space-y-4">
-                <RevealOpacity delay={1.2}>
+                <Reveal>
                   <h3 className="text-xl lg:text-2xl font-bold uppercase">
                     about cccmii
                   </h3>
-                </RevealOpacity>
+                </Reveal>
 
-                <RevealOpacity delay={1.3}>
+                <Reveal>
                   <p>
                     Established by leading experts in conflict resolution and
                     counselling, CCCMII stands at the vanguard of contemporary
@@ -179,9 +179,9 @@ const page = (props: Props) => {
                     range of services, including certification courses,
                     workshops, and bespoke organizational training programs.
                   </p>
-                </RevealOpacity>
+                </Reveal>
 
-                <RevealOpacity delay={1.4}>
+                <Reveal>
                   <p>
                     CCCMII&apos;s curricula are designed to teach theoretical
                     knowledge and provide hands-on experience that prepares our
@@ -192,9 +192,9 @@ const page = (props: Props) => {
                     and creative problem-solving are universal keys to unlocking
                     lasting peace and concord.
                   </p>
-                </RevealOpacity>
+                </Reveal>
 
-                <RevealOpacity delay={1.5}>
+                <Reveal>
                   <p>
                     Through our commitment to excellence, integrity, and
                     empathetic engagement, CCCMII continues to set the standard
@@ -202,7 +202,7 @@ const page = (props: Props) => {
                     resolution—forging paths to agreement and understanding
                     across the globe.
                   </p>
-                </RevealOpacity>
+                </Reveal>
               </div>
             </div>
 
