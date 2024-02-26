@@ -7,7 +7,7 @@ type Props = {
   delay?: number;
 };
 
-const Reveal = ({ children, delay }: Props) => {
+const RevealOpacity = ({ children, delay }: Props) => {
   const ref = useRef(null);
   const isInview = useInView(ref);
 
@@ -22,8 +22,8 @@ const Reveal = ({ children, delay }: Props) => {
     <motion.div
       ref={ref}
       variants={{
-        hidden: { opacity: 0, y: 30 },
-        visible: { opacity: 1, y: 0 },
+        hidden: { opacity: 0 },
+        visible: { opacity: 1 },
       }}
       transition={{ duration: 0.7, delay: delay }}
       initial="hidden"
@@ -34,4 +34,4 @@ const Reveal = ({ children, delay }: Props) => {
   );
 };
 
-export default Reveal;
+export default RevealOpacity;

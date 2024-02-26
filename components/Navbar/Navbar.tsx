@@ -17,12 +17,10 @@ const Navbar = (props: Props) => {
         {bar && <Navigation hideModalHandler={setbar} barstate={bar} />}
       </AnimatePresence>
 
-      <Reveal>
-        <header className="flex gap-x-4 py-4 w-full items-center ContainerPadding container max-lg:px-4">
-          <Logo />
-          <NavMenu bar={bar} barfunction={setbar} />
-        </header>
-      </Reveal>
+      <header className="flex gap-x-4 py-4 w-full items-center ContainerPadding container max-lg:px-4">
+        <Logo />
+        <NavMenu bar={bar} barfunction={setbar} />
+      </header>
     </>
   );
 };
