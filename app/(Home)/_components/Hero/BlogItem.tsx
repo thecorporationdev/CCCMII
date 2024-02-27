@@ -35,11 +35,11 @@ export const BlogItem = (props: Props) => {
     tl.fromTo(
       img,
       {
-        yPercent: -10,
+        yPercent: -20,
         ease: "none",
       },
       {
-        yPercent: 20,
+        yPercent: 30,
         ease: "none",
       }
     );
