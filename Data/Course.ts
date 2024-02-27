@@ -2,7 +2,7 @@ export const courseDes = [
   {
     id: 1,
     coursename: "COMMERCIAL MEDIATION",
-    taglines: "Compassionate Mediation for Life's Transitions",
+    taglines: "Business Harmony Through Expert Consensus",
     slug: "COMMERCIAL-MEDIATION",
     courseDescription:
       "Our Commercial Mediation course equips participants with advanced skills and techniques to handle and resolve complex business disputes. The curriculum covers methods for facilitating negotiations between corporate entities to maintain and strengthen professional relationships post-conflict.",
@@ -16,7 +16,7 @@ export const courseDes = [
     id: 2,
     coursename: "ENVIRONMENTAL MEDIATION",
     slug: "ENVIRONMENTAL-MEDIATION",
-    taglines: "Business Harmony Through Expert Consensus",
+    taglines: "Green Solutions, Sustainable Agreements",
     courseDescription:
       "Participants in the Environmental Mediation course learn to effectively mediate conflicts that arise at the intersection of environmental conservation and economic activities. This training is crucial for professionals involved in managing disputes over natural resource allocation, policy implementation, or environmental harm restitution.",
     courseturcture:
@@ -30,7 +30,7 @@ export const courseDes = [
     id: 3,
     coursename: "COMMUNITY MEDIATION",
     slug: "COMMUNITY-MEDIATION",
-    taglines: "Green Solutions, Sustainable Agreements",
+    taglines: "Community Unity through Collaborative Dialoque",
     courseDescription:
       "The Community Mediation course imparts the ability to address neighborhood and city-wide conflicts with a focus on enhancing communication and promoting peaceful coexistence. Ideal for community leaders and liaison officers, participants learn to initiate and guide constructive conversations.",
     courseturcture:
@@ -44,7 +44,7 @@ export const courseDes = [
     id: 4,
     coursename: "PEER MEDIATION",
     slug: "PEER-MEDIATION",
-    taglines: "Green Solutions, Sustainable Agreements",
+    taglines: "Resolving conflicts, Reinforcing Bonds Among Peers",
     courseDescription:
       "Learn the art of mediating conflicts between peers with our specialized Peer Mediation course. This program is designed for educators, HR professionals, and anyone interested in fostering positive interactions in group settings like schools and workplaces.",
     courseturcture:
@@ -57,7 +57,7 @@ export const courseDes = [
     id: 5,
     coursename: "FAMILY MEDIATION",
     slug: "FAMILY-MEDIATION",
-    taglines: "Resolving Conflicts, Reinforcing Bonds Among Peers",
+    taglines: "Reconciling Relationships for Family Harmony",
     courseDescription:
       "Our Family Mediation course provides tactful approaches to managing and resolving conflicts within the family structure. It addresses topics such as marital disputes, parent-child conflicts, and family business matters with sensitivity and discretion.",
     courseturcture:
@@ -70,7 +70,7 @@ export const courseDes = [
     id: 6,
     coursename: "LANDLORD / TENANT DISPUTE MEDIATION",
     slug: "LANDLORD-TENANT-DISPUTE-MEDIATION",
-    taglines: "Reconciling Relationships for Family Harmony",
+    taglines: "Balanced Agreements for Better Living Spaces",
     courseDescription:
       "This practical course prepares mediators to handle disputes between landlords and tenants, focusing on creating solutions that respect the rights of both parties and uphold legal tenancy agreements.",
     courseturcture:
@@ -83,7 +83,7 @@ export const courseDes = [
     id: 7,
     coursename: "INHERITANCE/ DIVORCE MEDIATION",
     slug: "INHERITANCE-DIVORCE-MEDIATION",
-    taglines: "Balanced Agreements for Better Living Spaces",
+    taglines: "Compassionate Mediation For Life's Transitions",
     courseDescription:
       "Navigate the sensitive terrain of partitioning assets and managing relationship transitions in our Inheritance/Divorce Mediation course. This program emphasizes empathetic communication and fair resolution practices.",
     courseturcture:
