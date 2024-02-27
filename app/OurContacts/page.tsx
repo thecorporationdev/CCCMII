@@ -166,7 +166,7 @@ const page = (props: Props) => {
               <div className="w-full ">
                 <div className="w-full flex items-center  justify-end ">
                   <div className="w-full">
-                    <form className="w-full py-10   border-t-[1px] border-b-2 border-black flex  justify-end">
+                    <form className="w-full py-10   border-t-[1px] border-b-[1px] border-black flex  justify-end">
                       <div className="flex justify-between md:w-1/2 flex-col gap-y-4 mt-10  text-xl">
                         <p className="text-2xl md:text-3xl font-bold  pb-4 uppercase ">
                           ready to enroll?

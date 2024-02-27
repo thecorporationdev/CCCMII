@@ -16,9 +16,9 @@ const Hamburger = (props: Props) => {
         barfunction(!barstate);
       }}
     >
-      <span className={`w-[34px] h-[1.5px] bg-black ${barColor} `}></span>
-      <span className={`w-[34px] h-[1.5px] bg-black ${barColor} `}></span>
-      <span className={`w-[34px] h-[1.5px] bg-black ${barColor} `}></span>
+      <span className={`w-[34px] h-[2px] bg-black ${barColor} `}></span>
+      <span className={`w-[34px] h-[2px] bg-black ${barColor} `}></span>
+      <span className={`w-[34px] h-[2px] bg-black ${barColor} `}></span>
     </div>
     // <div
     //   className={cn(
