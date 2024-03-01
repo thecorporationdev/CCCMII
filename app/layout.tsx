@@ -12,7 +12,22 @@ const syne = Syne({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: {
     default: "CCCMII",
-    template: "%s | CCCMIII",
+    template: "%s | CCCMII",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  twitter: {
+    title: "CCCMII",
+    card: "summary_large_image",
   },
 };
 

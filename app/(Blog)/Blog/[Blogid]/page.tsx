@@ -10,6 +10,14 @@ type Props = {
   };
 };
 
+// export async function generateStaticParams() {
+//   const posts = await
+
+//   return posts.map((post) => ({
+//     slug: post.slug,
+//   }))
+// }
+
 const page = async ({ params: { Blogid } }: Props) => {
   const course = await getBySlug(`${Blogid}`);
 
