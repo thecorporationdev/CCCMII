@@ -44,7 +44,7 @@ const page = (props: Props) => {
           <div className="h-[1px] bg-black w-full my-10"></div>
 
           <div className="w-full flex justify-end my-10">
-            <div className="w-full lg:w-1/2 text-xl space-y-4 ">
+            <div className="w-full lg:w-1/2 text-xl flex flex-col gap-y-6">
               <Reveal>
                 <h3 className="text-xl font-bold mb-4 capitalize">
                   {course?.courseDescription}
@@ -70,13 +70,12 @@ const page = (props: Props) => {
 
               <Reveal>
                 <p>
-                  <span className="font-semibold text-xl capitalize mr-1">
+                  <span className="font-semibold text-xl capitalize mr-1 mb-10">
                     course cost :
                   </span>
                   {course?.coursecost}
                 </p>
               </Reveal>
-
               <EnrollNow />
             </div>
           </div>

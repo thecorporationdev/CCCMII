@@ -7,12 +7,27 @@ import fifthimage from "@/public/Experts/OritAsnin.jpg";
 import sixthimage from "@/public/Experts/PatrickMcphilamy.jpg";
 import seventhimage from "@/public/Experts/kim.jpg";
 import Eighthimage from "@/public/Experts/SuzannaNorbeck.jpg";
+import NinthImage from "@/public/Experts/MichaelLang.jpg";
+import Image10 from "@/public/Experts/AlbertoElivatesky.jpg";
+import image11 from "@/public/Experts/KenCloke.jpg";
 import Reveal from "@/Animations/Reveal";
 
 const ExpertsImage = [
   {
     id: 1,
     image: firstimage,
+  },
+  {
+    id: 2,
+    image: NinthImage,
+  },
+  {
+    id: 2.6,
+    image: Image10,
+  },
+  {
+    id: 2.6,
+    image: image11,
   },
   {
     id: 2,
@@ -27,12 +42,12 @@ const ExpertsImage = [
     image: thirdimage,
   },
   {
-    id: 3,
+    id: 5,
     image: Eighthimage,
   },
 
   {
-    id: 5,
+    id: 5.5,
     image: fifthimage,
   },
   {

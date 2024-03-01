@@ -5,14 +5,14 @@ import Logo2 from "@/public/SVGLOGONLY/MediatorsBeyondBorders.svg";
 import Logo3 from "@/public/SVGLOGONLY/AsianLawStudentsAssociation.svg";
 import Logo4 from "@/public/SVGLOGONLY/BlackWomenForPositiveChange.svg";
 import Logo5 from "@/public/SVGLOGONLY/GMNInstitute.svg";
-import Logo6 from "@/public/SVGLOGONLY/INTERNATIONALMEDIATIONINSTITUTE.svg";
+import Logo6 from "@/public/SVGLOGONLY/ONEZEROONELOGO.svg";
 import Logo7 from "@/public/SVGLOGONLY/AfricanOmbudsmanAndMediatorsAssociation.svg";
 import Logo8 from "@/public/SVGLOGONLY/Rectitude.svg";
 import Reveal from "@/Animations/Reveal";
 
 export const Sponsors = [
   { id: 1, image: Logo1, name: "Essential Mediation Solutions" },
-  { id: 6, image: Logo6, name: "International Mediation Institute" },
+  { id: 6, image: Logo6, name: "One Zero One Training" },
   { id: 5, image: Logo5, name: "GMN Institute" },
   { id: 8, image: Logo8, name: "Rectitude" },
   { id: 4, image: Logo4, name: "Black Women for Positive Change" },
