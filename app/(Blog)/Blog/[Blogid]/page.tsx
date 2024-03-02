@@ -1,4 +1,4 @@
-import BlogImage from "@/components/Footer/ui/BlogImage";
+import BlogImage from "@/components/ui/BlogImage";
 import { getBySlug } from "@/lib/getBySlug";
 import { getMetaData } from "@/lib/getMetaData";
 import { Metadata } from "next";

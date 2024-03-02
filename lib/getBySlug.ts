@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { compileMDX } from "next-mdx-remote/rsc";
-import BlogImage from "@/components/Footer/ui/BlogImage";
+import BlogImage from "@/components/ui/BlogImage";
 
 const rootDirectory = path.join(process.cwd(), "Data", "Articles");
 

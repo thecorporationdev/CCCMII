@@ -1,5 +1,5 @@
 import HeroGrid from "@/app/(Home)/_components/Hero/HeroGrid";
-import HeaderText from "@/components/Footer/ui/HeaderText";
+import HeaderText from "@/components/ui/HeaderText";
 import React from "react";
 
 type Props = {};

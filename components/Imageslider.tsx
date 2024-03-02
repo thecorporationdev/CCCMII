@@ -8,7 +8,7 @@ import type SwiperType from "swiper";
 import { Pagination } from "swiper/modules";
 import { cn } from "@/lib/utils";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { Button } from "./Footer/ui/button";
+import { Button } from "./ui/button";
 
 type Props = {
   image?: StaticImageData[];
