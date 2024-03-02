@@ -6,10 +6,15 @@ import { FiArrowUpRight } from "react-icons/fi";
 import image from "@/public/OURCONTACTS.jpg";
 import { Link2Icon } from "lucide-react";
 import Reveal from "@/Animations/Reveal";
+import { Metadata } from "next";
 
-type Props = {};
+export const metadata: Metadata = {
+  title: "OurContacts",
+  description:
+    " Connecting with the Three C&apos;s Met InternationalInstitute of Mediation, Negotiation, Counseling, andConciliation (CCCMII) is the gateway to exploring a world where conflict resolution and communication arerevolutionized. We have streamlined our contact information to ensure that you can reach out to us with ease for any inquiries, support, or feedback ",
+};
 
-const page = (props: Props) => {
+const page = () => {
   return (
     <>
       <section className="">

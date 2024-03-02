@@ -3,11 +3,16 @@ import Reveal from "@/Animations/Reveal";
 import RevealOpacity from "@/Animations/RevealOpacity";
 import TeamDetails from "@/app/(Home)/_components/Team/TeamDetails";
 import image from "@/public/CCCMIIIMAGES/dl.beatsnoop.com-3000-8auWx6lwOXcopy.jpg";
+import { Metadata } from "next";
 import Image from "next/image";
 
-type Props = {};
+export const metadata: Metadata = {
+  title: "OurProfile",
+  description:
+    " Our mission at CCCMII is to offer comprehensive,  high-calibre educational programs that equip participants with cutting-edge strategies in conflict resolution and  collaborative negotiation. We strive to create a cadre of skilled professionals who facilitate dialogue, mend   relationships, and promote a more harmonious society.",
+};
 
-const page = (props: Props) => {
+const OurProfile = () => {
   return (
     <>
       <section className="">
@@ -217,4 +222,4 @@ const page = (props: Props) => {
   );
 };
 
-export default page;
+export default OurProfile;

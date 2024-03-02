@@ -6,14 +6,31 @@ import { Syne } from "next/font/google";
 import FooterMain from "@/components/Footer/FooterMain";
 import SponsorMain from "./(Home)/_components/Sponsors/SponsorMain";
 import SmoothScrolling from "@/Animations/SmoothScrolling";
+import { SeoKeywords } from "@/Data/SEOKEYWORDS";
 
 const syne = Syne({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.cccmii.org"),
+  description:
+    "WELCOME TO THE OFFICIAL WEBSITE OF THREE C'S MET INTERNATIONAL INSTITUTE OF MEDIATION, NEGOTIATION COUNSELING AND CONCILIATION (CCCMII)",
   title: {
     default: "CCCMII",
     template: "%s | CCCMII",
   },
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "CCCMII",
+    description:
+      "At CCCMII, we are dedicated to empowering individuals and organizations with the skills and knowledge necessary for effective mediation, negotiation, counselling, and conciliation",
+    url: "https://www.cccmii.org",
+    siteName: "CCCMII",
+    locale: "en_US",
+    type: "website",
+  },
+  keywords: SeoKeywords,
   robots: {
     index: true,
     follow: true,

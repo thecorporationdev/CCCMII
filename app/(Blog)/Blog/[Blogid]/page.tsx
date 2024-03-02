@@ -1,5 +1,7 @@
 import BlogImage from "@/components/Footer/ui/BlogImage";
 import { getBySlug } from "@/lib/getBySlug";
+import { getMetaData } from "@/lib/getMetaData";
+import { Metadata } from "next";
 
 import { notFound } from "next/navigation";
 import React from "react";
@@ -10,13 +12,21 @@ type Props = {
   };
 };
 
-// export async function generateStaticParams() {
-//   const posts = await
+export async function generateStaticParams() {
+  const posts = await getMetaData();
+  return posts.map((post) => ({
+    Blogid: post.slug,
+  }));
+}
 
-//   return posts.map((post) => ({
-//     slug: post.slug,
-//   }))
-// }
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const Blog = await getBySlug(params.Blogid);
+
+  return {
+    title: Blog?.meta.Coursetitle || "Blog",
+    description: `${Blog?.meta.blurb || "CCCMII Blog"}`,
+  };
+}
 
 const page = async ({ params: { Blogid } }: Props) => {
   const course = await getBySlug(`${Blogid}`);
@@ -25,7 +35,7 @@ const page = async ({ params: { Blogid } }: Props) => {
   const { meta, content } = course;
 
   return (
-    <section className=" w-full  bg-white  text-grey ">
+    <section className=" w-full bg-white  text-grey ">
       <BlogImage imagesrc={meta.image} />
       <div className="px-5 my-10">
         <div className="flex flex-col  gap-y-4">

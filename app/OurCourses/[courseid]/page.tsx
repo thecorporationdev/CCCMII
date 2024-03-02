@@ -7,14 +7,30 @@ import Link from "next/link";
 import Courseitem from "../_Components/Courseitem";
 import EnrollNow from "../_Components/EnrollNow";
 import Reveal from "@/Animations/Reveal";
+import { getMetaData } from "@/lib/getMetaData";
+import { Metadata } from "next";
 
 type Props = {
   params: { courseid: string };
 };
 
+export async function generateStaticParams() {
+  const courses = await getMetaData();
+  return courses.map((courses) => ({
+    slug: courses.slug,
+  }));
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const course = courseDes.find((insight) => insight.slug === params.courseid);
+  return {
+    title: course?.coursename || "Course",
+    description: `${course?.courseDescription || "CCCMII Courses"}`,
+  };
+}
+
 const page = (props: Props) => {
   const { params } = props;
-
   const randomObjects = pickRandomObjects(courseDes, 3);
 
   const course = courseDes.find((insight) => insight.slug === params.courseid);

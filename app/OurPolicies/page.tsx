@@ -4,9 +4,8 @@ import Image from "next/image";
 import React from "react";
 import privacypolicy from "@/public/CCCMIIIMAGES/privacypolicy.jpg";
 import Reveal from "@/Animations/Reveal";
-type Props = {};
 
-const page = (props: Props) => {
+const page = () => {
   return (
     <section className="">
       <div className="relative w-full h-[350px] lg:h-[700px] mb-14 bg-slate-100 px-8">

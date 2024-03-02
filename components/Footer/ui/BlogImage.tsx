@@ -12,7 +12,7 @@ type Props = {
 const BlogImage = (props: Props) => {
   const { imagesrc } = props;
   return (
-    <div className="lg:px-8">
+    <div className="">
       <div className="relative w-full h-[350px] lg:h-[600px] mb-14 bg-slate-100 ">
         <Image
           alt="CCCMII IMAGE"

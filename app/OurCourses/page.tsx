@@ -7,10 +7,12 @@ import { courseDes } from "@/Data/Course";
 import ParallaxImage from "@/Animations/ParallaxImage";
 import RevealOpacity from "@/Animations/RevealOpacity";
 import Reveal from "@/Animations/Reveal";
+import { Metadata } from "next";
 
-type Props = {};
-
-const page = (props: Props) => {
+export const metadata: Metadata = {
+  title: "OurContacts",
+};
+const page = () => {
   return (
     <section className="">
       <ParallaxImage image={image} />

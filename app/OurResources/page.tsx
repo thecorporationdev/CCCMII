@@ -3,10 +3,12 @@ import React from "react";
 import image from "@/public/OURRESOURCES.jpg";
 import MainBrandServices from "../(Home)/_components/BrandServices/MainBrandServices";
 import Reveal from "@/Animations/Reveal";
+import { Metadata } from "next";
 
-type Props = {};
-
-const page = (props: Props) => {
+export const metadata: Metadata = {
+  title: "OurResources",
+};
+const page = () => {
   return (
     <section className="pb-10">
       <div className="relative w-full h-[350px] lg:h-[700px] mb-14 bg-slate-100 px-8">
