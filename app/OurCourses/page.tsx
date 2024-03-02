@@ -1,13 +1,11 @@
-import Image from "next/image";
-import React from "react";
-import image from "@/public/OURCOURSES.jpg";
-import Courseitem from "./_Components/Courseitem";
-import TeamDetails from "../(Home)/_components/Team/TeamDetails";
-import { courseDes } from "@/Data/Course";
 import ParallaxImage from "@/Animations/ParallaxImage";
-import RevealOpacity from "@/Animations/RevealOpacity";
 import Reveal from "@/Animations/Reveal";
+import RevealOpacity from "@/Animations/RevealOpacity";
+import { courseDes } from "@/Data/Course";
+import image from "@/public/OURCOURSES.jpg";
 import { Metadata } from "next";
+import TeamDetails from "../(Home)/_components/Team/TeamDetails";
+import Courseitem from "./_Components/Courseitem";
 
 export const metadata: Metadata = {
   title: "OurCourses",
