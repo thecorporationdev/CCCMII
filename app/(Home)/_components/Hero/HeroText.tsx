@@ -2,6 +2,7 @@
 import React from "react";
 import Reveal from "@/Animations/Reveal";
 import { TextGenerateEffect } from "@/Animations/Text-generate";
+import { Parallax } from "@/Animations/Parallax";
 
 const HeroText = () => {
   return (
@@ -16,8 +17,9 @@ const HeroText = () => {
             </span>
           </div>
         </Reveal> */}
-
-        <TextGenerateEffect words="WELCOME TO THE OFFICIAL WEBSITE OF THREE C'S MET INTERNATIONAL INSTITUTE OF MEDIATION, NEGOTIATION COUNSELING AND CONCILIATION (CCCMII)" />
+        <Parallax speed={0.5}>
+          <TextGenerateEffect words="WELCOME TO THE OFFICIAL WEBSITE OF THREE C'S MET INTERNATIONAL INSTITUTE OF MEDIATION, NEGOTIATION COUNSELING AND CONCILIATION (CCCMII)" />
+        </Parallax>
       </div>
     </div>
   );
