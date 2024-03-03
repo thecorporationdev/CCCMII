@@ -7,11 +7,11 @@ import { usePathname, useSearchParams } from "next/navigation";
 export default function SmoothScroller() {
   const lenis = useRef<Lenis | null>(null);
   const pathname = usePathname();
-  const searchParams = useSearchParams();
+  // const searchParams = useSearchParams();
 
   useEffect(() => {
     if (lenis.current) lenis.current.scrollTo(0, { immediate: true });
-  }, [pathname, searchParams, lenis]);
+  }, [pathname, lenis]);
 
   useLayoutEffect(() => {
     lenis.current = new Lenis({

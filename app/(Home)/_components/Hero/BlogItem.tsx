@@ -6,6 +6,8 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Readmore from "./Readmore";
 import Reveal from "@/Animations/Reveal";
+import Lenis from "@studio-freight/lenis";
+// import { Lenis } from "@studio-freight/react-lenis/types";
 
 type Props = {
   image: StaticImageData;
@@ -18,9 +20,15 @@ type Props = {
 export const BlogItem = (props: Props) => {
   const { image, coursetitle, courseblurb, color, slug } = props;
   const imgRef = useRef<HTMLImageElement>(null);
+  const lenis = useRef<Lenis | null>(null);
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
+    lenis.current = new Lenis({
+      smoothWheel: true,
+
+      // Customize other instance settings here
+    });
 
     const img = imgRef.current;
 
