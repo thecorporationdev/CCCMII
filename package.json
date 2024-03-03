@@ -16,6 +16,7 @@
     "@radix-ui/react-slot": "^1.0.2",
     "@studio-freight/hamo": "^0.6.28",
     "@studio-freight/react-lenis": "^0.0.45",
+    "@studio-freight/tempus": "^0.0.44",
     "@types/mdx": "^2.0.11",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",

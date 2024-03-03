@@ -7,6 +7,7 @@ import FooterMain from "@/components/Footer/FooterMain";
 import SponsorMain from "./(Home)/_components/Sponsors/SponsorMain";
 import SmoothScrolling from "@/Animations/SmoothScrolling";
 import { SeoKeywords } from "@/Data/SEOKEYWORDS";
+import SmoothScroller from "@/Animations/Lenis";
 
 const syne = Syne({ subsets: ["latin"] });
 
@@ -58,7 +59,10 @@ export default function RootLayout({
       <body className={`${syne.className} antialiased`}>
         <Navbar />
         <main className="lg:border-[1px]  container lg:border-black  lg:border-t-[0] mt-16 lg:mt-20 border-b-[0]">
-          <SmoothScrolling> {children}</SmoothScrolling>
+          <SmoothScrolling>
+            {" "}
+            <SmoothScroller /> {children}
+          </SmoothScrolling>
         </main>
         <SponsorMain />
         <FooterMain />

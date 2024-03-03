@@ -56,6 +56,7 @@ export const BlogItem = (props: Props) => {
               fill
               className="object-cover h-full origin-center scale-125"
               priority
+              sizes="100vw"
               ref={imgRef}
             />
           </div>
